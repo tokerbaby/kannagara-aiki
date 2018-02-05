@@ -12,6 +12,10 @@
 }
 */
 
+.header-container {
+    padding-top: 30px;
+}
+
 /* Dropdown Button */
 .dropbtn {
     background-color: white;
