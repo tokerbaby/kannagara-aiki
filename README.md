@@ -1,1 +1,3 @@
-# kannagara-aiki
+# Kannagara-aiki
+
+Concept: Moscow Kannagara Dojo website
