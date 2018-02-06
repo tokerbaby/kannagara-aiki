@@ -1,3 +1,12 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, small, strong, sub, sup, b, i, ol, ul, li, footer, header, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 /*
 #entry:before {
 	content: "";
@@ -76,8 +85,22 @@
     margin-right: auto;
 }
 
+/*
 @media screen and (max-width: 767px) {
     #kid {
         display: none;
     }
+}
+*/
+
+#kid {
+    float: right;
+    display: block;
+    margin-left: 10px;
+}
+
+#kotegaeshi {
+    float: left;
+    display: block;
+    margin-right: 10px;
 }
