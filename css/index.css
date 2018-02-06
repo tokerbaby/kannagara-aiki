@@ -101,11 +101,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, small, str
     background-color: #D8D8D8;
 }
 
-.footer_navbar {
-    margin-right: auto;
-    margin-left: auto;
+body {
+    display: none;
 }
 
-.footer_navbar .nav-item {
-    margin-left: 80px;
-}
