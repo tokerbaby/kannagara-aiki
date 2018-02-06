@@ -75,7 +75,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, small, str
 	color:black !important;
 	background-color: white;
 	font-size: 14px;
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .img-responsive {
@@ -91,17 +91,13 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, small, str
     margin-left: 10px;
 }
 
-#kotegaeshi {
+#kotegaeshi, #boy {
     float: left;
     display: block;
     margin-right: 10px;
 }
-
 .footer {
     background-color: #D8D8D8;
 }
 
-body {
-    display: none;
-}
 
