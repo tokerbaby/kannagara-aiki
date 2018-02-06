@@ -104,3 +104,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, small, str
     display: block;
     margin-right: 10px;
 }
+
+.y_map {
+    margin-top: 100px;
+    margin-left: 100px;
+}
