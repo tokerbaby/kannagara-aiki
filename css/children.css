@@ -1,0 +1,11 @@
+.header_container {
+    background-image: url('/images/children/background.jpg');
+    background-size: cover;
+}
+
+#boy {
+    float: right;
+    display: block;
+    margin-left: 10px;
+}
+
