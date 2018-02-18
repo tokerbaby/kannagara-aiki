@@ -10,11 +10,10 @@
 	 	<meta name="description" content="The HTML5 Herald">
 		<meta name="author" content="SitePoint">
 
-	  	<link rel="stylesheet" href="css/index.css">
-	  	<link rel="stylesheet" type="text/css" href="css/general.css">
 	  	<link rel="stylesheet" type="text/css" href="css/header.css">
 	  	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	  	<link rel="stylesheet" type="text/css" href="css/mainpage.css">
+	  	<link rel="stylesheet" type="text/css" href="css/general.css">
 
 	  	<!-- Bootstrap CSS -->
 	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -22,7 +21,7 @@
 
 	<body>
 		
-  		<div class="container-fluid header_container">
+  		<div class="container-fluid main_header">
 
 			<?php include('header.php') ?>
 
@@ -44,7 +43,7 @@
 				<div class="col-md-8 col-sm-8">
 					<div>
 						<h2>Приглашаем ребят в детскую группу айкидо</h2>
-						<img src="images/kid.jpg" class="d-sm-none d-md-block" id="kid">
+						<img src="images/main/kid.jpg" class="d-sm-none d-md-block" id="kid">
 						<p>Айкидо прекрасно подходит для занятий в самом раннем возрасте. Правильно поставленное преподавание айкидо помогает раскрытию творческих возможностей личности ученика.</p>
 						<p>Айкидо учит мощи, но не грубости. Для занятий не требуется особых физических данных. Занятия айкидо так же хороши для девочек, как и для мальчиков.</p>
 						<p>Мы хотим увидеть человека умелого, сильного, чувствующего, думающего. Важно, чтобы у взрослеющего человека выросло чувство собственного достоинства вместе с уважением к другим. Вооружённый человек должен особенно бережно относиться к живому. Этому, по нашему убеждению и должно научить айкидо.</p>
@@ -77,7 +76,7 @@
 					<div>
 						<h2>Приглашаем взрослых в начальные и продолжающие группы!</h2>
 						<strong>Мы не имитируем мастерство. Мы учимся встречать атаку</strong>
-						<img src="images/kotegaeshi.jpg" id="kotegaeshi">
+						<img src="images/main/kotegaeshi.jpg" id="kotegaeshi">
 						<p>Вы можете посетить первое занятие по Айкидо в любом из наших залов, не заботясь об оплате.</p>
 						<p>Перед посещением первого занятия прочтите, пожалуйста, правила и договоритесь о дне Вашей первой тренировки по тел. (917) 530 59 16.</p>
 						<p>Занятия по айкидо проводят преподаватели с многолетним стажем педагогической практики.</p>
@@ -144,7 +143,7 @@
 				<div class="col-md-3 ml-auto col-sm-3 ml-auto">
 					<div class="side_bar">
 						<h3>Новости</h3>
-						<img src="images/book.jpg">
+						<img src="images/main/book.jpg">
 						<h4>Книга Ниcио-сэнсэя</h4>
 						<p>Вышла книга Ниcио-сэнсэя «Aikido - Yurusu Budo» на русском языке.
 							Подробная информация на сайте <a href="#">nishiobook.ru</a></p>
@@ -152,14 +151,14 @@
 						<hr>
 
 						<h3>Беседы о Синто</h3>
-						<img src="images/japan.jpg" width="170px" height="100px">
+						<img src="images/main/japan.jpg" width="170px" height="100px">
 						<h4>Мы открываем новую страницу, посвящённую Синто</h4>
 						<p>Синто - неотъемлемая часть японской культуры и мировосприятия. Мы полагаем, что статьи, заметки и другие материалы, имеющие отношение к Синто, будут интересны для многих, изучающих искусство айки</p>
 
 						<hr>
 
 						<h3><a href="#">Приглашаем на утренние занятия!</a></h3>
-						<img src="images/tree.jpg">
+						<img src="images/main/tree.jpg">
 						<p>Занятия в утренние часы оставляют особое тонкое чувство, след которого остаётся с Вами на весь день</p>
 					</div>
 				</div>
@@ -190,7 +189,7 @@
 
 				<div class="row">
 			  		<div class="col-sm-6">
-			  			<img src="images/logo.gif" alt="Логотип Каннагара Додзё">
+			  			<img src="images/main/logo.gif" alt="Логотип Каннагара Додзё">
 			  		</div>
 
 			  		<div class="col-sm-6">

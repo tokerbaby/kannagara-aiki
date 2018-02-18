@@ -1,5 +1,5 @@
-.header_container {
-    background-image: url('/images/aikido-bokken.jpg');
+.main_header {
+    background-image: url('/images/main/aikido-bokken.jpg');
     background-size: cover;
 }
 
@@ -11,7 +11,7 @@ nav {
     padding-bottom: 100px;
 }
 
-.navbar a.menu_link, .dropbtn {
+.menu_link, .dropbtn {
     color: white !important;
     text-transform: uppercase;
     font-size: 12px;

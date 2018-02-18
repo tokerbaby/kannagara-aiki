@@ -22,28 +22,38 @@
     <body>
         <div class="container-fluid header_container">
             <?php include('header.php') ?>
+
+            <div class="container">
+                <div>
+                    <h1 class="h1">
+                        Айкидо для школьников
+                    </h1>
+                </div>
+            </div>
         </div>
 
-        <div class="container text-center">
-            <h1>
-                Айкидо для школьников
-                <br>
-                <small>Приглашаем ребят в детскую школу айкидо при Московском Айкидо Каннагара Додзё</small>
-            </h1>
-            <img src="images/children/boy.jpg" id="boy">
-            <p>Мы не отбираем «способных», не стремимся вырастить чемпионов или мускулистых победителей, не знающих сомнения в правоте силы. Хорошо освоенное боевое искусство - это острое оружие, и человек, владеющий им, должен, прежде всего, уметь владеть собой.</p>
-            <p>За четверть века преподавания айкидо мы накопили определённый опыт и хотим передать часть наших знаний молодому поколению. Мы хотим передать знания боевых искусств, знание серьезных навыков самообороны, вместе с уважением к живому и чувством ответственности за применение силы.</p>
-            <p>Занятия айкидо в наших группах помогут ребятам окрепнуть физически, улучшат координацию, помогут достойно выйти из схватки с обидчиками, а также позволят приобрести новых друзей!</p>
-            <p><strong>На занятия приглашаются ребята от 7 до 13 лет, мальчики и девочки занимаются вместе. Подросткам с 13 – 14 лет мы рекомендуем посещать «взрослые» группы айкидо.</strong></p>
-            <h2>Как записаться на занятие?</h2>
-            <p>Вы можете записаться в группу, просто придя на своё первое занятие. И всё же мы рекомендуем записаться заранее. Вы можете сделать это:</p>
-            <p>по телефонам +7 (917) 530-59-16 или +7 (925) 589-03-20</p>
-            <p>по электронной почте, написав на detmir-aiki@mail.ru</p>
-            <p>на сайте, заполнив <a href="#">форму</a></p>
-            <p>Если у Вас есть особые пожелания или вы хотите что-либо рассказать о своём ребёнке, <a href="#">напишите нам об этом</a> или расскажите по телефону. Это поможет нам правильно построить занятия.</p>
-            <p>В нашей школе работает  <a href="#">группа для дошкольного возраста (4 – 7) лет</a>.</p>
-            <p><strong style="color:red">Внимание! Перед посещением додзё убедитесь, что у ребенка нет медицинский противопоказаний!</strong></p>
+        <div class="container">
+            <h2 class="h2">Приглашаем ребят в детскую школу айкидо при Московском Айкидо Каннагара Додзё</h2>
 
+            <img src="images/children/boy.jpg" id="boy">
+            <p class="p">Мы не отбираем «способных», не стремимся вырастить чемпионов или мускулистых победителей, не знающих сомнения в правоте силы. Хорошо освоенное боевое искусство - это острое оружие, и человек, владеющий им, должен, прежде всего, уметь владеть собой.</p>
+            <p class="p">За четверть века преподавания айкидо мы накопили определённый опыт и хотим передать часть наших знаний молодому поколению. Мы хотим передать знания боевых искусств, знание серьезных навыков самообороны, вместе с уважением к живому и чувством ответственности за применение силы.</p>
+            <p class="p">Занятия айкидо в наших группах помогут ребятам окрепнуть физически, улучшат координацию, помогут достойно выйти из схватки с обидчиками, а также позволят приобрести новых друзей!</p>
+            <p class="p"><strong>На занятия приглашаются ребята от 7 до 13 лет, мальчики и девочки занимаются вместе. Подросткам с 13 – 14 лет мы рекомендуем посещать «взрослые» группы айкидо.</strong></p>
+            <h2 class="h2">Как записаться на занятие?</h2>
+            <p class="p">Вы можете записаться в группу, просто придя на своё первое занятие. И всё же мы рекомендуем записаться заранее. 
+                <br>Вы можете сделать это:
+            </p>
+            <ul>
+                <li>по телефонам <a href="#">+7 (917) 530-59-16</a> или <a href="#">+7 (925) 589-03-20</a></li>
+                <li>по электронной почте, написав на <a href="#">detmir-aiki@mail.ru</a></li>
+                <li>на сайте, заполнив <a href="#">форму</a></li>
+            </ul>
+            <p class="p">Если у Вас есть особые пожелания или вы хотите что-либо рассказать о своём ребёнке, <a href="#">напишите нам об этом</a> или расскажите по телефону. Это поможет нам правильно построить занятия.</p>
+            <p class="p">В нашей школе работает  <a href="#">группа для дошкольного возраста (4 – 7) лет</a>.</p>
+            <p class="p"><strong style="color:red">Внимание! Перед посещением додзё убедитесь, что у ребенка нет медицинский противопоказаний!</strong></p>
+
+            
             <div id="accordion">
                 <div class="card">
                     <div class="card-header" id="headingOne">
@@ -100,113 +110,77 @@
             </div>
 
             <div class="container">
-                <form>
-                    <h2 style="font-style: italic">Запись в детскую группу</h2>
-                    <h3>О ребёнке</h3>
+                <form class="enroll_form">
+                    <h2 class="h2">Запись в детскую группу</h2>
+                    <h3 class="h3">О ребёнке</h3>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-2 col-form-label">Фамилия</label>
-                        <div class="col-10">
+                        <label for="example-text-input" class="col-md-2 col-form-label">Фамилия</label>
+                        <div class="col-md-10">
                             <input class="form-control" type="text" value="" id="example-text-input">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-2 col-form-label">Имя</label>
-                        <div class="col-10">
+                        <label for="example-text-input" class="col-md-2 col-form-label">Имя</label>
+                        <div class="col-md-10">
                             <input class="form-control" type="text" value="" id="example-text-input">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-2 col-form-label">Отчество</label>
-                        <div class="col-10">
+                        <label for="example-text-input" class="col-md-2 col-form-label">Отчество</label>
+                        <div class="col-md-10">
                             <input class="form-control" type="text" value="" id="example-text-input">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-date-input" class="col-2 col-form-label">Дата рождения</label>
-                        <div class="col-10">
+                        <label for="example-date-input" class="col-md-2 col-form-label">Дата рождения</label>
+                        <div class="col-md-10">
                             <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
                         </div>
                     </div>
 
-                    <h3>О родителях</h3>
+                    <h3 class="h3">О родителях</h3>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-2 col-form-label">Фамилия</label>
-                        <div class="col-10">
+                        <label for="example-text-input" class="col-md-2 col-form-label">Фамилия</label>
+                        <div class="col-md-10">
                             <input class="form-control" type="text" value="" id="example-text-input">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-2 col-form-label">Имя</label>
-                        <div class="col-10">
+                        <label for="example-text-input" class="col-md-2 col-form-label">Имя</label>
+                        <div class="col-md-10">
                             <input class="form-control" type="text" value="" id="example-text-input">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-2 col-form-label">Отчество</label>
-                        <div class="col-10">
+                        <label for="example-text-input" class="col-md-2 col-form-label">Отчество</label>
+                        <div class="col-md-10">
                             <input class="form-control" type="text" value="" id="example-text-input">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-tel-input" class="col-2 col-form-label">Контактный телефон</label>
-                        <div class="col-10">
-                            <input class="form-control" type="tel" value="+7 (555)-555-55-55" id="example-tel-input">
+                        <label for="example-tel-input" class="col-md-2 col-form-label">Контактный телефон</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="tel" id="example-tel-input">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="exampleInputEmail1" class="col-2 col-form-label">Электронная почта</label>
-                        <div class="col-10">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <label for="exampleInputEmail1" class="col-md-2 col-form-label">Электронная почта</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleTextarea" class="col-2 col-form-label">Ваше сообщение</label>
+                    <div class="form-group row">
+                        <label for="exampleTextarea" class="col-md-2 col-form-label">Ваше сообщение</label>
+                        <div class="col-md-10">
                             <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                        <p id="passwordHelpBlock" class="form-text text-muted">
-                            Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-                        </p>
+                        </div>
                     </div>
                     <button type="submit" class="btn btn-outline-primary btn-lg">Отправить</button>
                 </form>
             </div>
         </div>
 
-        <div class="container">
-            <div class="footer">
-                <div class="row text-center">
-                    <div class="col">
-                        <a class="menu_link" href="#">Главная</a>
-                    </div>
-                    <div class="col">
-                        <a class="menu_link" href="#">Детский мир айкидо</a>
-                    </div>
-                    <div class="col">
-                        <a class="menu_link" href="#">Расписание</a>
-                    </div>
-                    <div class="col">
-                        <a class="menu_link" href="#">Адреса залов</a>
-                    </div>
-                    <div class="col">
-                        <a class="menu_link" href="#">En</a>
-                    </div>
-                </div>
-
-                <hr class="my-3">
-
-                <div class="row">
-                    <div class="col-sm-6">
-                        <img src="images/logo.gif" alt="Логотип Каннагара Додзё">
-                    </div>
-
-                    <div class="col-sm-6">
-                        <p>м. Шаболовская, ул. Академика Петровского, д. 10</p>
-                        <p>+7 (917) 530-59-16 (детские группы)</p>
-                        <p>+7 (925) 589-03-20</p>
-                        <p>detmir-aiki@mail.ru</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include('footer.php') ?>
 
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

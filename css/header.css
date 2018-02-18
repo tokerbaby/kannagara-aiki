@@ -1,7 +1,3 @@
-.header_container {
-    padding-top: 30px;
-}
-
 /* Dropdown Button */
 .dropbtn {
     background-color: transparent;
@@ -21,7 +17,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -31,12 +27,15 @@
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
-    text-decoration: none;
     display: block;
+    font-size: 12px;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: White}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    text-decoration: none;
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -45,21 +44,51 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: white;
+    background-color: transparent;
 }
 
 .menu_dropdown, .menu_link {
 	color:black !important;
-	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
 }
 
+.menu_link:hover, .dropbtn:hover {
+    color: #f2582b !important;
+}
+
 .dropbtn {
-    margin-top: -1px;
+    margin-top: -2px;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
+}
+
+.navbar {
+    margin-top: 20px;
+    padding: 0 !important;
+}
+
+.nav-item:not(:first-child) {
+    margin-left: 14px;
+}
+
+.main_menu .nav-item:last-child {
+    border-left: 1px solid black !important;
+}
+
+.header_container {
+    background-size: contain;
+    background-color: #f7f5f7;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.2) 100%), url('/images/children/koi.jpg');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1650px) {
+    .header_container{
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 100%), url('/images/children/koi.jpg');
+    }
 }
