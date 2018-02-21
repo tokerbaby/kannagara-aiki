@@ -20,6 +20,29 @@
     </head>
 
     <body>
+        <!--
+        <script type="text/javascript">
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the card */
+                    this.classList.toggle("active");
+
+                    /* Toggle between hiding and showing the active card */
+                    var card = this.nextElementSibling;
+                    if (card.style.display === "block") {
+                        card.style.display = "none";
+                    } else {
+                        card.style.display = "block";
+                    }
+                });
+            }
+        </script>
+        -->
+
         <div class="container-fluid header_container">
             
             <div class="container">
@@ -59,7 +82,7 @@
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion block btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 Чему может научить айкидо?
                             </button>
                         </h5>
@@ -77,7 +100,7 @@
                 <div class="card">
                     <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="accordion block btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Айкидо для родителей
                             </button>
                         </h5>
@@ -91,7 +114,7 @@
                 <div class="card">
                     <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="accordion block btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Что понадобится для занятий?
                             </button>
                         </h5>

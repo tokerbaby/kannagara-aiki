@@ -4,9 +4,7 @@
 	<script type="text/javascript">
 		$(window).scroll(function() {
 	    if ($(this).scrollTop() > 20) {
-		         $('nav').addClass('fixed-top');
-		    } else if ($(this).scrollTop() == 0) {
-		         $('nav').removeClass('fixed-top');
+		         $('nav').addClass('navbar');
 		    }
 		});
 	</script> 
