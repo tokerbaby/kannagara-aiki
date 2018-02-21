@@ -1,3 +1,5 @@
+/* PC Menu */
+
 /* Dropdown Button */
 .dropbtn {
     background-color: transparent;
@@ -52,7 +54,7 @@
 	font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .menu_link:hover, .dropbtn:hover {
@@ -63,26 +65,27 @@
     margin-top: -2px;
     text-transform: uppercase;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+button.dropbtn.menu_dropdown:focus {
+    outline: none;
 }
 
 .navbar {
-    margin-top: 20px;
-    padding: 0 !important;
+    padding: 0px !important;
+    background-color: #c3b49c;
 }
 
 .nav-item:not(:first-child) {
     margin-left: 14px;
 }
 
-.main_menu .nav-item:last-child {
-    border-left: 1px solid black !important;
-}
-
 .header_container {
+    height: 400px;
     background-size: contain;
     background-color: #f7f5f7;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.2) 100%), url('/images/children/koi.jpg');
+    background-image: url('/images/children/koi.jpg');
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
@@ -91,4 +94,86 @@
     .header_container{
         background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 100%), url('/images/children/koi.jpg');
     }
+}
+
+/* Mobile Menu */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: inline-block;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 175px;
+    font-size: 36px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (min-width: 1091px) {
+    .mobile_menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1091px) {
+    .pc_menu {
+        display: none;
+    }
+}
+
+#sign_in {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+#en_ru {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+.navbar_top {
+    padding: 0;
+    background-color: white; 
+}
+
+.navbar-nav {
+    padding: 8px;
+}
+
+.header_title {
+    padding-top: 130px;
 }

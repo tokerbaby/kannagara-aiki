@@ -10,9 +10,9 @@
         <meta name="description" content="The HTML5 Herald">
         <meta name="author" content="SitePoint">
 
-        <link rel="stylesheet" type="text/css" href="css/children.css">
         <link rel="stylesheet" type="text/css" href="css/header.css">
         <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <link rel="stylesheet" type="text/css" href="css/children.css">
         <link rel="stylesheet" type="text/css" href="css/general.css">
 
         <!-- Bootstrap CSS -->
@@ -21,10 +21,11 @@
 
     <body>
         <div class="container-fluid header_container">
+            
+            <div class="container">
             <?php include('header.php') ?>
 
-            <div class="container">
-                <div>
+                <div class="header_title">
                     <h1 class="h1">
                         Айкидо для школьников
                     </h1>

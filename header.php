@@ -1,12 +1,32 @@
-<div class="container">
-	<div class>
-		<div class="text-left">
-			<img src="images/main/logo.gif" class="pt-4" alt="Логотип Каннагара Додзё">
-	    </div>
-	</div>
+<div class="container pc_menu" style="padding: 0;">
+	<!-- 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function() {
+	    if ($(this).scrollTop() > 20) {
+		         $('nav').addClass('fixed-top');
+		    } else if ($(this).scrollTop() == 0) {
+		         $('nav').removeClass('fixed-top');
+		    }
+		});
+	</script> 
+	-->
 
-	<div>
-		<nav class="navbar navbar-toggleable-md navbar-light d-inline-block">
+	<nav class="navbar fixed-top navbar-toggleable-md navbar-light d-inline-block">
+		<div class="container-fluid navbar_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10">
+						<img src="images/main/logo.gif" class="pt-2 pb-2" alt="Логотип Каннагара Додзё">
+					</div>
+					<div class="col-sm-2 text-right">
+						<img src="images/main/sign-in.png" id="sign_in" alt="Вход в ЛК">
+						<img src="images/main/en.png" id="en_ru" alt="Сменить язык">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container" style="padding: 0;">
 		  	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    	<span class="navbar-toggler-icon"></span>
 		  	</button>
@@ -14,6 +34,10 @@
 		  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav mr-auto">
 			    	<li class="nav-item">
+			        	<a class="nav-link menu_link" href="#">Главная</a>
+			        </li>
+
+			        <li class="nav-item">
 			        	<a class="nav-link menu_link active" href="#">Беседы о Синто</a>
 			        </li>
 
@@ -64,11 +88,7 @@
 						  	<button class="dropbtn menu_dropdown">Семинары</button>
 						  	<div class="dropdown-content">
 							    <a href="#">О семинарах</a>
-							    <a href="#">Международный семинар на Лазурном берегу в июне 2018</a>
-							    <a href="#">Семинар в Марокко, апрель 2018</a>
-							    <a href="#">Семинар Поля Мюллера-сэнсэя, ноябрь 2017</a>
-							    <a href="#">Семинар по айкидо на Лазурном берегу 8-15 октября 2017</a>
-							    <a href="#">Архив семинаров</a>
+							    <a href="#">Архив</a>
 							    <a href="#">Фото</a>
 						  	</div>
 						</div>
@@ -78,11 +98,52 @@
 			        	<a class="nav-link menu_link active" href="#">Видео</a>
 			        </li>
 
-			      	<li class="nav-item">
-			        	<a class="nav-link menu_link" href="#">En</a>
-			        </li>
 			    </ul>
 		  	</div>
-		</nav>
+		</div>
+	</nav>
+</div> 
+
+<div class="container mobile_menu text-right" style="margin:15; padding:0;">
+	<div class="text-left">
+		<img src="images/main/logo.gif" class="pt-4" alt="Логотип Каннагара Додзё">
+    </div>
+	<div id="mySidenav" class="sidenav">
+	  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  
+	    <div id="MainMenu">
+	        <div class="list-group panel"> <!-- items start from here -->
+	        	<!-- 1st -->
+	        	<a href="#" data-parent="#MainMenu">Беседы о синто
+	        	</a>
+
+	        	<!-- 2nd -->
+	          	<a href="#item_2" data-toggle="collapse" data-parent="#MainMenu">О клубе
+	          	</a>
+	          	<div class="collapse" id="item_2">
+	            	<a href="#" class="list-group-item">Subitem 1</a>
+	          	</div>
+	          
+	          	<!-- 3rd -->
+	          	<a href="#demo4" data-toggle="collapse" data-parent="#MainMenu">Детский мир айкидо
+	          	</a>
+	          	<div class="collapse" id="demo4">
+	            	<a href="" class="list-group-item">Subitem 1</a>
+	          	</div>
+	        </div>
+	    </div>   
 	</div>
+
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 </div>
+
+
+<script>
+	function openNav() {
+	    document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+	    document.getElementById("mySidenav").style.width = "0";
+	}
+</script>

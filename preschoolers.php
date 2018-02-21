@@ -10,9 +10,9 @@
 	 	<meta name="description" content="The HTML5 Herald">
 		<meta name="author" content="SitePoint">
 
-	  	<link rel="stylesheet" type="text/css" href="css/preschoolers.css">
         <link rel="stylesheet" type="text/css" href="css/header.css">
         <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <link rel="stylesheet" type="text/css" href="css/preschoolers.css">
         <link rel="stylesheet" type="text/css" href="css/general.css">
 
 	  	<!-- Bootstrap CSS -->
