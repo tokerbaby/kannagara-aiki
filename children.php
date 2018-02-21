@@ -138,57 +138,33 @@
                     <h2 class="h2">Запись в детскую группу</h2>
                     <h3 class="h3">О ребёнке</h3>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-md-2 col-form-label">Фамилия</label>
+                        <label for="example-text-input" class="col-md-2 col-form-label">ФИО</label>
                         <div class="col-md-10">
-                            <input class="form-control" type="text" value="" id="example-text-input">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="example-text-input" class="col-md-2 col-form-label">Имя</label>
-                        <div class="col-md-10">
-                            <input class="form-control" type="text" value="" id="example-text-input">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="example-text-input" class="col-md-2 col-form-label">Отчество</label>
-                        <div class="col-md-10">
-                            <input class="form-control" type="text" value="" id="example-text-input">
+                            <input class="form-control" type="text" id="example-text-input">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="example-date-input" class="col-md-2 col-form-label">Дата рождения</label>
                         <div class="col-md-10">
-                            <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+                            <input class="form-control" type="date" placeholder="2011-08-19" id="example-date-input">
                         </div>
                     </div>
 
                     <h3 class="h3">О родителях</h3>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-md-2 col-form-label">Фамилия</label>
+                        <label for="example-text-input" class="col-md-2 col-form-label">ФИО</label>
                         <div class="col-md-10">
-                            <input class="form-control" type="text" value="" id="example-text-input">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="example-text-input" class="col-md-2 col-form-label">Имя</label>
-                        <div class="col-md-10">
-                            <input class="form-control" type="text" value="" id="example-text-input">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="example-text-input" class="col-md-2 col-form-label">Отчество</label>
-                        <div class="col-md-10">
-                            <input class="form-control" type="text" value="" id="example-text-input">
+                            <input class="form-control" type="text" id="example-text-input">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="example-tel-input" class="col-md-2 col-form-label">Контактный телефон</label>
                         <div class="col-md-10">
-                            <input class="form-control" type="tel" id="example-tel-input">
+                            <input class="form-control" type="tel" placeholder="+7(000)-00-00" id="example-tel-input">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="exampleInputEmail1" class="col-md-2 col-form-label">Электронная почта</label>
+                        <label for="exampleInputEmail1" class="col-md-2 col-form-label">Контактная почта</label>
                         <div class="col-md-10">
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
                         </div>
@@ -199,7 +175,7 @@
                             <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-outline-primary btn-lg">Отправить</button>
+                    <button type="submit" class="btn btn-outline-primary btn-lg">Записаться в группу</button>
                 </form>
             </div>
         </div>
