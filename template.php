@@ -12,7 +12,6 @@
 
         <link rel="stylesheet" type="text/css" href="css/header.css">
         <link rel="stylesheet" type="text/css" href="css/footer.css">
-        <link rel="stylesheet" type="text/css" href="css/children.css">
         <link rel="stylesheet" type="text/css" href="css/general.css">
 
         <!-- Bootstrap CSS -->
@@ -27,10 +26,13 @@
 
                 <div class="header_title">
                     <h1 class="h1">
-                        Айкидо для школьников
                     </h1>
                 </div>
             </div>
+        </div>
+
+        <div class="container">
+            <!-- MAIN CONTENT -->
         </div>
         
         <?php include('footer.php') ?>

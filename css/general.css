@@ -31,6 +31,7 @@ body {
 	font-weight: bolder !important;
 	padding-top: 40px;
 	margin-bottom: 50px !important;
+	color: #f2582b !important;
 }
 
 .h3 {
@@ -44,11 +45,20 @@ body {
 }
 
 small {
-	font-size: 20px !important;
+	font-size: 16px !important;
+}
+
+.hr {
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .section {
 	background-color: #f7f5f7;
 	margin-top: 90px;
 	padding-bottom: 60px;
+}
+
+li {
+	list-style-type: none;
 }
