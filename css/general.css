@@ -28,8 +28,9 @@ body {
 
 .h2 {
 	font-size: 26px !important;
-	margin-top: 40px;
 	font-weight: bolder !important;
+	padding-top: 40px;
+	margin-bottom: 50px !important;
 }
 
 .h3 {
@@ -39,9 +40,15 @@ body {
 
 .p {
 	margin-top: 20px;
-	font-size: 15px;
+	font-size: 14px;
 }
 
 small {
 	font-size: 20px !important;
+}
+
+.section {
+	background-color: #f7f5f7;
+	margin-top: 90px;
+	padding-bottom: 60px;
 }

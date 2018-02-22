@@ -64,120 +64,125 @@
             <p class="p">За четверть века преподавания айкидо мы накопили определённый опыт и хотим передать часть наших знаний молодому поколению. Мы хотим передать знания боевых искусств, знание серьезных навыков самообороны, вместе с уважением к живому и чувством ответственности за применение силы.</p>
             <p class="p">Занятия айкидо в наших группах помогут ребятам окрепнуть физически, улучшат координацию, помогут достойно выйти из схватки с обидчиками, а также позволят приобрести новых друзей!</p>
             <p class="p"><strong>На занятия приглашаются ребята от 7 до 13 лет, мальчики и девочки занимаются вместе. Подросткам с 13 – 14 лет мы рекомендуем посещать «взрослые» группы айкидо.</strong></p>
-            <h2 class="h2">Как записаться на занятие?</h2>
-            <p class="p">Вы можете записаться в группу, просто придя на своё первое занятие. И всё же мы рекомендуем записаться заранее. 
-                <br>Вы можете сделать это:
-            </p>
-            <ul>
-                <li>по телефонам <a href="#">+7 (917) 530-59-16</a> или <a href="#">+7 (925) 589-03-20</a></li>
-                <li>по электронной почте, написав на <a href="#">detmir-aiki@mail.ru</a></li>
-                <li>на сайте, заполнив <a href="#">форму</a></li>
-            </ul>
-            <p class="p">Если у Вас есть особые пожелания или вы хотите что-либо рассказать о своём ребёнке, <a href="#">напишите нам об этом</a> или расскажите по телефону. Это поможет нам правильно построить занятия.</p>
-            <p class="p">В нашей школе работает  <a href="#">группа для дошкольного возраста (4 – 7) лет</a>.</p>
-            <p class="p"><strong style="color:red">Внимание! Перед посещением додзё убедитесь, что у ребенка нет медицинский противопоказаний!</strong></p>
+        </div> 
 
-            
-            <div id="accordion">
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="accordion block btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Чему может научить айкидо?
-                            </button>
-                        </h5>
-                    </div>
-
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
-                            <p>Часто нашим детям не хватает физического контакта со сверстниками, порой просто недостаёт тактильных ощущений. Занятия айкидо хорошо восполняют эту нехватку.</p>
-                            <p>Помимо навыков самозащиты айкидо может научить распознавать невербальный язык, которым люди пользуются, часто не отдавая себе отчёта. Почувствовать, как устроено личное пространство и пространство другого, (например, определить эти границы и не наступать на ноги соседа, не задевать его сумкой).</p>
-                            <p>Айкидо может научить молодого человека многим прекрасным и важным вещам.</p>
-                            <p>Но прежде всего айкидо должно научить бережному отношению к живому.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="accordion block btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Айкидо для родителей
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
-                             Разумеется, на нашем татами мы будем рады видеть и родителей, но уже во «взрослой» группе.
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="accordion block btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Что понадобится для занятий?
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-                            <p>Поскольку занятия айкидо могут потребовать повышенных нагрузок, мы настоятельно рекомендуем посоветоваться с доктором до того, как приступить к тренировкам.</p>
-                            <p><b>Одежда и обувь</b></p>
-                            <p>Для занятий понадобятся свободная спортивная одежда (штаны и верх с длинными (но не слишком -!) рукавами, сменная обувь для входа в зал, которая снимается перед входом на татами. На татами занимаются босиком, но можно одеть носки.</p>
-                            <p>Если Вы убедились, что Ваш ребёнок будет заниматься, обязательно оденьте его в кимоно.</p>
-                            <b>Экипировка</b>
-                            <p>Ещё понадобятся <a href="#">тренировочное оружие</a> - деревянный меч – боккэн длиной около 100 ±5 см и лёгкая палка - дзё длиной около 125 см. То и другое можно <a href="#">приобрести</a>, но можно и сделать самим.</p>
-                            <p>Вот, пожалуй, и всё, что нужно из «инвентаря».</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        <div class="container-fluid section">
             <div class="container">
-                <form class="enroll_form">
-                    <h2 class="h2">Запись в детскую группу</h2>
-                    <h3 class="h3">О ребёнке</h3>
-                    <div class="form-group row">
-                        <label for="example-text-input" class="col-md-2 col-form-label">ФИО</label>
-                        <div class="col-md-10">
-                            <input class="form-control" type="text" id="example-text-input">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="example-date-input" class="col-md-2 col-form-label">Дата рождения</label>
-                        <div class="col-md-10">
-                            <input class="form-control" type="date" placeholder="2011-08-19" id="example-date-input">
-                        </div>
-                    </div>
+                <h2 class="h2">Как записаться на занятие?</h2>
+                <p class="p">Вы можете записаться в группу, просто придя на своё первое занятие. И всё же мы рекомендуем записаться заранее. 
+                    <br>Вы можете сделать это:
+                </p>
+                <ul>
+                    <li>по телефонам <a href="#">+7 (917) 530-59-16</a> или <a href="#">+7 (925) 589-03-20</a></li>
+                    <li>по электронной почте, написав на <a href="#">detmir-aiki@mail.ru</a></li>
+                    <li>на сайте, заполнив <a href="#">форму</a></li>
+                </ul>
+                <p class="p">Если у Вас есть особые пожелания или вы хотите что-либо рассказать о своём ребёнке, <a href="#">напишите нам об этом</a> или расскажите по телефону. Это поможет нам правильно построить занятия.</p>
+                <p class="p">В нашей школе работает  <a href="#">группа для дошкольного возраста (4 – 7) лет</a>.</p>
+                <p class="p"><strong style="color:red">Внимание! Перед посещением додзё убедитесь, что у ребенка нет медицинский противопоказаний!</strong></p>
 
-                    <h3 class="h3">О родителях</h3>
-                    <div class="form-group row">
-                        <label for="example-text-input" class="col-md-2 col-form-label">ФИО</label>
-                        <div class="col-md-10">
-                            <input class="form-control" type="text" id="example-text-input">
+                
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="accordion block btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Чему может научить айкидо?
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Часто нашим детям не хватает физического контакта со сверстниками, порой просто недостаёт тактильных ощущений. Занятия айкидо хорошо восполняют эту нехватку.</p>
+                                <p>Помимо навыков самозащиты айкидо может научить распознавать невербальный язык, которым люди пользуются, часто не отдавая себе отчёта. Почувствовать, как устроено личное пространство и пространство другого, (например, определить эти границы и не наступать на ноги соседа, не задевать его сумкой).</p>
+                                <p>Айкидо может научить молодого человека многим прекрасным и важным вещам.</p>
+                                <p>Но прежде всего айкидо должно научить бережному отношению к живому.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label for="example-tel-input" class="col-md-2 col-form-label">Контактный телефон</label>
-                        <div class="col-md-10">
-                            <input class="form-control" type="tel" placeholder="+7(000)-00-00" id="example-tel-input">
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="accordion block btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Айкидо для родителей
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                 Разумеется, на нашем татами мы будем рады видеть и родителей, но уже во «взрослой» группе.
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label for="exampleInputEmail1" class="col-md-2 col-form-label">Контактная почта</label>
-                        <div class="col-md-10">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="accordion block btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Что понадобится для занятий?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Поскольку занятия айкидо могут потребовать повышенных нагрузок, мы настоятельно рекомендуем посоветоваться с доктором до того, как приступить к тренировкам.</p>
+                                <p><b>Одежда и обувь</b></p>
+                                <p>Для занятий понадобятся свободная спортивная одежда (штаны и верх с длинными (но не слишком -!) рукавами, сменная обувь для входа в зал, которая снимается перед входом на татами. На татами занимаются босиком, но можно одеть носки.</p>
+                                <p>Если Вы убедились, что Ваш ребёнок будет заниматься, обязательно оденьте его в кимоно.</p>
+                                <b>Экипировка</b>
+                                <p>Ещё понадобятся <a href="#">тренировочное оружие</a> - деревянный меч – боккэн длиной около 100 ±5 см и лёгкая палка - дзё длиной около 125 см. То и другое можно <a href="#">приобрести</a>, но можно и сделать самим.</p>
+                                <p>Вот, пожалуй, и всё, что нужно из «инвентаря».</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label for="exampleTextarea" class="col-md-2 col-form-label">Ваше сообщение</label>
-                        <div class="col-md-10">
-                            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                        </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="container">
+            <form class="enroll_form">
+                <h2 class="h2">Запись в детскую группу</h2>
+                <h3 class="h3">О ребёнке</h3>
+                <div class="form-group row">
+                    <label for="example-text-input" class="col-md-2 col-form-label">ФИО</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="text" id="example-text-input">
                     </div>
-                    <button type="submit" class="btn btn-outline-primary btn-lg">Записаться в группу</button>
-                </form>
-            </div>
+                </div>
+                <div class="form-group row">
+                    <label for="example-date-input" class="col-md-2 col-form-label">Дата рождения</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="date" placeholder="2011-08-19" id="example-date-input">
+                    </div>
+                </div>
+
+                <h3 class="h3">О родителях</h3>
+                <div class="form-group row">
+                    <label for="example-text-input" class="col-md-2 col-form-label">ФИО</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="text" id="example-text-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="example-tel-input" class="col-md-2 col-form-label">Контактный телефон</label>
+                    <div class="col-md-10">
+                        <input class="form-control" type="tel" placeholder="+7(000)-00-00" id="example-tel-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="exampleInputEmail1" class="col-md-2 col-form-label">Контактная почта</label>
+                    <div class="col-md-10">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="exampleTextarea" class="col-md-2 col-form-label">Ваше сообщение</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary btn-lg">Записаться в группу</button>
+            </form>
         </div>
 
         <?php include('footer.php') ?>
