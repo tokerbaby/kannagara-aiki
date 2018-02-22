@@ -46,10 +46,10 @@
         <div class="container-fluid header_container">
             
             <div class="container">
-            <?php include('header.php') ?>
+                <?php include('header.php') ?>
 
-                <div class="header_title">
-                    <h1 class="h1">
+                <div class="container">
+                    <h1 class="header_title">
                         Айкидо для школьников
                     </h1>
                 </div>

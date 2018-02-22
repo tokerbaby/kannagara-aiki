@@ -1,6 +1,5 @@
-/* PC Menu */
+/* Dropdown Menu */
 
-/* Dropdown Button */
 .dropbtn {
     background-color: transparent;
     color: black;
@@ -9,13 +8,11 @@
     border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -25,7 +22,6 @@
     z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -33,18 +29,15 @@
     font-size: 12px;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #f1f1f1;
     text-decoration: none;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: transparent;
 }
@@ -81,22 +74,56 @@ button.dropbtn.menu_dropdown:focus {
     margin-left: 14px;
 }
 
+.navbar_top {
+    padding: 0;
+    background-color: white; 
+}
+
+.navbar-nav {
+    padding: 8px;
+}
+
+/* Whole header */
+
 .header_container {
     height: 400px;
     background-size: contain;
     background-color: #f7f5f7;
-    background-image: url('/images/children/koi.jpg');
+    background-image: url('/images/header/koi.jpg');
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1650px) {
     .header_container{
-        background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 100%), url('/images/children/koi.jpg');
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 100%), url('/images/header/koi.jpg');
     }
 }
 
-/* MOBILE MENU */
+.header_title {
+    padding-top: 210px;
+    padding-bottom: 100px;
+    font-size: 40px !important;
+    font-weight: lighter;
+}
+
+#sign_in {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+#en_ru {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+/* Mobile menu */
 
 .sidenav {
     height: 100%;
@@ -147,33 +174,4 @@ button.dropbtn.menu_dropdown:focus {
     .pc_menu {
         display: none;
     }
-}
-
-#sign_in {
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    position: relative;
-    top: 10px;
-}
-
-#en_ru {
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    position: relative;
-    top: 10px;
-}
-
-.navbar_top {
-    padding: 0;
-    background-color: white; 
-}
-
-.navbar-nav {
-    padding: 8px;
-}
-
-.header_title {
-    padding-top: 130px;
 }
