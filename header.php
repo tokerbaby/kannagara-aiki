@@ -104,30 +104,66 @@
 
 <div class="container mobile_menu text-right" style="margin:15; padding:0;">
 	<div class="text-left">
-		<img src="images/main/logo.gif" class="pt-4" alt="Логотип Каннагара Додзё">
+		<a href="index.php"><img src="images/main/logo.gif" class="pt-4" alt="Логотип Каннагара Додзё"></a>
     </div>
 	<div id="mySidenav" class="sidenav">
 	  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 	  
 	    <div id="MainMenu">
 	        <div class="list-group panel"> <!-- items start from here -->
+	        	<!-- 0 -->
+	          	<a href="ind	ex.php" data-toggle="collapse" data-parent="#MainMenu">Главная
+	          	</a>
+
 	        	<!-- 1st -->
 	        	<a href="shinto.php" data-parent="#MainMenu">Беседы о синто
 	        	</a>
 
 	        	<!-- 2nd -->
-	          	<a href="#item_2" data-toggle="collapse" data-parent="#MainMenu">О клубе
+	          	<a href="#about" data-toggle="collapse" data-parent="#MainMenu">О клубе
 	          	</a>
-	          	<div class="collapse" id="item_2">
-	            	<a href="#" class="list-group-item">Subitem 1</a>
+	          	<div class="collapse" id="about">
+	            	<a href="teachers.php" class="list-group-item">Преподаватели</a>
+	            	<a href="mentors.php" class="list-group-item">Наставники и коллеги</a>
+	            	<a href="exams.php" class="list-group-item">Экзамены</a>
+	            	<a href="rules.php" class="list-group-item">Правила</a>
 	          	</div>
 	          
 	          	<!-- 3rd -->
-	          	<a href="#demo4" data-toggle="collapse" data-parent="#MainMenu">Детский мир айкидо
+	          	<a href="#kids_aiki" data-toggle="collapse" data-parent="#MainMenu">Детский мир айкидо
 	          	</a>
-	          	<div class="collapse" id="demo4">
-	            	<a href="" class="list-group-item">Subitem 1</a>
+	          	<div class="collapse" id="kids_aiki">
+	            	<a href="children.php" class="list-group-item">Айкидо для школьников</a>
+	            	<a href="preschoolers.php" class="list-group-item">Айкидо для дошкольников</a>
+	            	<a href="first.php" class="list-group-item">Перед первым занятием</a>
 	          	</div>
+
+	          	<!-- 4th -->
+	          	<a href="#training" data-toggle="collapse" data-parent="#MainMenu">О занятиях
+	          	</a>
+	          	<div class="collapse" id="training">
+	            	<a href="#" class="list-group-item">Расписание</a>
+	            	<a href="#" class="list-group-item">Стоимость</a>
+	            	<a href="#" class="list-group-item">Новичку</a>
+	            	<a href="#" class="list-group-item">Где купить</a>
+	          	</div>
+
+	          	<!-- 5th -->
+	          	<a href="#" data-toggle="collapse" data-parent="#MainMenu">Контакты
+	          	</a>
+
+	          	<!-- 6th -->
+	          	<a href="#seminars" data-toggle="collapse" data-parent="#MainMenu">Семинары
+	          	</a>
+	          	<div class="collapse" id="seminars">
+	            	<a href="#" class="list-group-item">О семинарах</a>
+	            	<a href="#" class="list-group-item">Архив</a>
+	            	<a href="#" class="list-group-item">Фото</a>
+	          	</div>
+
+	          	<!-- 7th -->
+	          	<a href="#" data-toggle="collapse" data-parent="#MainMenu">Видео
+	          	</a>
 	        </div>
 	    </div>   
 	</div>
