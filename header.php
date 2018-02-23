@@ -15,11 +15,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-10">
-						<img src="images/main/logo.gif" class="pt-2 pb-2" alt="Логотип Каннагара Додзё">
+						<a href="index.php"><img src="images/main/logo.gif" class="pt-2 pb-2" alt="Логотип Каннагара Додзё"></a>
 					</div>
 					<div class="col-sm-2 text-right">
 						<img src="images/main/sign-in.png" id="sign_in" alt="Вход в ЛК">
-						<img src="images/main/en.png" id="en_ru" alt="Сменить язык">
+						<img src="images/main/en.png" id="en_ru" alt="Изменить язык">
 					</div>
 				</div>
 			</div>
@@ -32,11 +32,11 @@
 		  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav mr-auto">
 			    	<li class="nav-item">
-			        	<a class="nav-link menu_link" href="#">Главная</a>
+			        	<a class="nav-link menu_link" href="index.php">Главная</a>
 			        </li>
 
 			        <li class="nav-item">
-			        	<a class="nav-link menu_link active" href="#">Беседы о Синто</a>
+			        	<a class="nav-link menu_link active" href="shinto.php">Беседы о Синто</a>
 			        </li>
 
 			        <li class="nav-item">
@@ -44,7 +44,7 @@
 					  		<button class="dropbtn menu_dropdown">О клубе
 					  		</button>
 					 		<div class="dropdown-content">
-				    			<a href="#">Преподаватели</a>
+				    			<a href="teachers.php">Преподаватели</a>
 				    			<a href="#">Наставники и коллеги</a>
 				    			<a href="#">Экзамены</a>
 				    			<a href="#">Правила</a>
@@ -57,8 +57,8 @@
 					  		<button class="dropbtn menu_dropdown">Детский мир айкидо
 					  		</button>
 					 		<div class="dropdown-content">
-				    			<a href="#">Айкидо для школьников</a>
-				    			<a href="#">Айкидо для дошкольников</a>
+				    			<a href="children.php">Айкидо для школьников</a>
+				    			<a href="preschoolers.php">Айкидо для дошкольников</a>
 				    			<a href="#">Перед первым занятием</a>
 					  		</div>
 						</div>
@@ -112,7 +112,7 @@
 	    <div id="MainMenu">
 	        <div class="list-group panel"> <!-- items start from here -->
 	        	<!-- 1st -->
-	        	<a href="#" data-parent="#MainMenu">Беседы о синто
+	        	<a href="shinto.php" data-parent="#MainMenu">Беседы о синто
 	        	</a>
 
 	        	<!-- 2nd -->
