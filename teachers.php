@@ -24,12 +24,10 @@
                 
             <div class="container">
                 <?php include('header.php') ?>
-
-                <div class="header_title">
-                    <h1 class="h1">
-                        О клубе
-                    </h1>
-                </div>
+                
+                <h1 class="h1 header_title">
+                    Преподаватели
+                </h1>
             </div>
         </div>
 
