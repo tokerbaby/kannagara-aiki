@@ -4,72 +4,6 @@
     margin-left: 10px;
 }
 
-/* ACCORDION STYLES */
-
-#accordion {
-    margin-top: 70px;
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    border: none !important;
-    outline: none !important;
-    border-bottom: 1px solid black;
-}
-#accordion .card {
-    background-color: #eee;
-    border: none;
-}
-
-#accordion .card-header {
-    background-color: #eee;
-    border-bottom-width: 1px;
-    padding: 0;
-    margin: 0;
-}
-
-#accordion .btn-link {
-    color: black;
-    font-family: "Open Sans", serif; 
-    font-weight: lighter;
-    font-size: 16px
-} 
-
-#accordion .block {
-    display: block;
-    width: 100%;
-    border: none;
-    background-color: #eee;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: left;
-}
-
-#accordion button.active, #accordion button:hover {
-    background-color: #ccc; 
-}
-
-#accordion .card-body {
-    padding: 6px 18px;
-    background-color: white;
-    overflow: hidden;
-    font-size: 15px;
-}
-
-.accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
-}
-
-.accordion .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
 /* FORM STYLES */
 
 .enroll_form {
@@ -117,3 +51,4 @@ label {
 .form-group {
     margin-bottom: 10px !important;
 }
+

@@ -25,11 +25,15 @@
             <div class="container">
                 <?php include('header.php') ?>
 
-                <div class="header_title">
-                    <h1 class="h1">
-                        Беседы о Синто
-                    </h1>
-                </div>
+                <h1 class="h1 header_title">
+                    Беседы о Синто
+                </h1>
+
+
+                <ul class="breadcrumb">
+                    <li><a href="index.php">Главная</a></li>
+                    <li>Беседы о Синто</li>
+                </ul>
             </div>
         </div>
 
@@ -56,14 +60,14 @@
 
         <div class="container">
             <div class="article">
-                <h2 class="article_title"><a href="#">Отакэби - часть мисоги</a></h2>
+                <h2 class="article_title"><a href="otakebi.php">Отакэби - часть мисоги</a></h2>
                 <h5></h5>
                 <div class="fakeimg"></div>
                 <p class="p">Комментарии к Отакэби, словам, выкрикивыемым во время Мисоги Дзюмбу Тайсо (действий во время выполнения подготовительной части ритуала очищения).</p>
             </div>
 
             <div class="article">
-                <h2 class="article_title"><a href="#">Накаима</a></h2>
+                <h2 class="article_title"><a href="nakaima.php">Накаима</a></h2>
                 <h5></h5>
                 <div class="fakeimg"></div>
                 <p class="p">Следующее связано с выражением важнейшего чувства - чувства благодарности, лежащего в основе Храмового Синто и всего понимания культуры.</p>

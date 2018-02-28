@@ -21,12 +21,19 @@
 
 	<body>
 		<div class="container-fluid header_container">
-            <?php include('header.php') ?>
 
             <div class="container">
-                <h1 class="header_title">
-                    Айкидо для школьников
+                <?php include('header.php') ?>
+
+                <h1 class="h1 header_title">
+                    Айкидо для дошкольников
                 </h1>
+
+                <ul class="breadcrumb">
+                    <li><a href="index.php">Главная</a></li>
+                    <li><a href="#">Детский мир айкидо</a></li>
+                    <li>Айкидо для школьников</li>
+                </ul>
             </div>
         </div>
 

@@ -12,13 +12,14 @@
 
 	  	<link rel="stylesheet" type="text/css" href="css/header.css">
 	  	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	  	<link rel="stylesheet" type="text/css" href="css/mainpage.css">
+	  	<link rel="stylesheet" type="text/css" href="css/index.css">
 	  	<link rel="stylesheet" type="text/css" href="css/general.css">
+	  	<link rel="stylesheet" type="text/css" href="css/login.css">
 
 	  	<!-- Bootstrap CSS -->
 	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	  	<!-- Icons -->
-	  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  	<!-- Fonts -->
+	  	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Open+Sans|Roboto" rel="stylesheet">
 	</head>
 
 	<body>

@@ -18,12 +18,52 @@
 						<a href="index.php"><img src="images/main/logo.gif" class="pt-2 pb-2" alt="Логотип Каннагара Додзё"></a>
 					</div>
 					<div class="col-sm-2 text-right">
-						<img src="images/main/sign-in.png" id="sign_in" alt="Вход в ЛК">
+						<button onclick="document.getElementById('id1').style.display='block'" style="width:auto;">Login</button>
+						<img src="images/main/sign-in.png" id="login" alt="Вход в ЛК">
 						<img src="images/main/en.png" id="en_ru" alt="Изменить язык">
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div id="id1" class="modal">
+      		<form class="modal-content animate" action="/action_page.php">
+		        <div class="imgcontainer">
+		          <span onclick="document.getElementById('id1').style.display='none'" class="close" title="Close Modal">&times;</span>
+		        </div>
+
+		        <div class="container">
+		          <label for="email"><b>Почта</b></label>
+		          <input type="text" placeholder="" name="email" required>
+
+		          <label for="psw"><b>Пароль</b></label>
+		          <input type="password" placeholder="" name="psw" required>
+		            
+		          <button type="submit">Вход</button>
+		          <label>
+		            <input type="checkbox" checked="checked" name="remember">Запомнить меня
+		          </label>
+		        </div>
+
+		        <div class="container" style="background-color:#f1f1f1">
+		          <span><a href="#">Регистрация</a></span>
+		          <span class="psw"><a href="#">Забыли пароль?</a></span>
+		        </div>
+		    </form>
+		</div>
+
+		<script>
+		    // Get the modal
+		    var modal = document.getElementById('id1');
+
+		    // When the user clicks anywhere outside of the modal, close it
+		    window.onclick = function(event) {
+		        if (event.target == modal) {
+		            modal.style.display = "none";
+		        }
+		    }
+		</script>
+
 		<div class="container" style="padding: 0;">
 		  	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    	<span class="navbar-toggler-icon"></span>
@@ -44,7 +84,7 @@
 					  		<button class="dropbtn menu_dropdown">О клубе
 					  		</button>
 					 		<div class="dropdown-content">
-				    			<a href="teachers.php">Преподаватели</a>
+				    			<a href="about.php">Преподаватели</a>
 				    			<a href="#">Наставники и коллеги</a>
 				    			<a href="#">Экзамены</a>
 				    			<a href="#">Правила</a>

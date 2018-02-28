@@ -1,42 +1,52 @@
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin-bottom: 16px;
-    padding: 0 8px;
+.teacher_info img {
+    border-radius: 50%;
+    width: 70%;
 }
 
-.card_content {
-    padding: 0 16px;
+img {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
-.card_content::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
+img:hover {
+  opacity: 0.7;
 }
 
-.name {
-    font-size: 20px;
-    font-weight: bolder;
-    padding-top: 10px;
+.teacher_info {
     margin-bottom: 20px;
 }
 
-.title {
-    color: grey;
+.teacher_info .h3 {
+    margin-top: 8px;
 }
 
-.button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
+.teacher_info .title {
+    font-size: 15px;
+    margin-bottom: -16px;
 }
 
-.button:hover {
-    background-color: #555;
+.mentor_info {
+    margin-bottom: 40px;
+}
+
+.mentor_info img {
+    margin-bottom: -15px;
+}
+
+/* Sidebar */
+
+.sidebar {
+    padding-top: 40px;
+    position: fixed;
+    z-index: 10;    
+}
+
+.sidebar ul li {
+    border-bottom: 1px solid #E6DDD4;
+    padding: 8px 0;
+}
+
+.sidebar a {
+    color: #191970 !important;
 }

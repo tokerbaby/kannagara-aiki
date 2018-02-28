@@ -26,11 +26,15 @@
             <div class="container">
                 <?php include('header.php') ?>
 
-                <div class="header_title">
-                    <h1 class="h1">
-                        Беседы о Синто. Отакэби - часть мисоги
-                    </h1>
-                </div>
+                <h1 class="h1 header_title">
+                    Беседы о Синто
+                </h1>
+
+                <ul class="breadcrumb">
+                    <li><a href="index.php">Главная</a></li>
+                    <li><a href="#">Беседы о Синто</a></li>
+                    <li>Отакэби - часть мисоги</li>
+                </ul>
             </div>
         </div>
 
@@ -60,7 +64,9 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-6 offset-6 text-right">
-                    <button class="button" style="vertical-align:middle"><span><small>Читать дальше</small><br>Накаима</span></button>
+                    <button class="button" style="vertical-align:middle">
+                        <a href="nakaima.php"><span><small>Читать далее</small><br>Накаима</span></a>
+                    </button>
                 </div>
             </div>
         </div>
