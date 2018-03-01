@@ -10,9 +10,9 @@
         <meta name="description" content="The HTML5 Herald">
         <meta name="author" content="SitePoint">
 
-        <link rel="stylesheet" type="text/css" href="../../css/header.css">
-        <link rel="stylesheet" type="text/css" href="../../css/footer.css">
-        <link rel="stylesheet" type="text/css" href="../../css/general.css">
+        <link rel="stylesheet" type="text/css" href="../server_resources/css/header.css">
+        <link rel="stylesheet" type="text/css" href="../server_resources/css/footer.css">
+        <link rel="stylesheet" type="text/css" href="../server_resources/css/general.css">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -22,17 +22,40 @@
         <div class="container-fluid header_container">
                 
             <div class="container">
-                <?php include('../../header.php') ?>
+                <?php include('../header.php') ?>
 
                 <div class="header_title">
                     <h1 class="h1">
+                        Стоимость и оплата
                     </h1>
                 </div>
             </div>
         </div>
 
         <div class="container">
-            <!-- MAIN CONTENT -->
+            <div class="row">
+                <div class="col-md-9">
+                    <p>Ежемесячные взносы вносятся до начала месяца.</p>
+                    <p>При задержке уплаты ежемесячных взносов просим заранее предупредить преподавателя группы или руководство додзё.</p>
+                    <p>Оплата разовых занятий производится в день посещения.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="h3">Взрослые и подростки старше 14 лет</h3>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="h3">Школьники и дошкольники</h3>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="h3">Утренняя группа</h3>
+                    <div class="table">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                </div>
+            </div>
         </div>
         
         <?php include('../../footer.php') ?>

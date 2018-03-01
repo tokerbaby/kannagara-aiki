@@ -23,7 +23,7 @@
 			
 			<div class="row">
 		  		<div class="col-sm-6">
-		  			<img src="images/main/logo.gif" alt="Логотип Каннагара Додзё">
+		  			<img src="../../images/main/logo.gif" alt="Логотип Каннагара Додзё">
 		  		</div>
 
 		  		<div class="col-sm-6">

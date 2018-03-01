@@ -10,11 +10,11 @@
 	 	<meta name="description" content="The HTML5 Herald">
 		<meta name="author" content="SitePoint">
 
-	  	<link rel="stylesheet" type="text/css" href="css/header.css">
-	  	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	  	<link rel="stylesheet" type="text/css" href="css/index.css">
-	  	<link rel="stylesheet" type="text/css" href="css/general.css">
-	  	<link rel="stylesheet" type="text/css" href="css/login.css">
+	  	<link rel="stylesheet" type="text/css" href="res/css/header.css">
+	  	<link rel="stylesheet" type="text/css" href="res/css/footer.css">
+	  	<link rel="stylesheet" type="text/css" href="res/css/index.css">
+	  	<link rel="stylesheet" type="text/css" href="res/css/general.css">
+	  	<link rel="stylesheet" type="text/css" href="res/css/login.css">
 
 	  	<!-- Bootstrap CSS -->
 	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">

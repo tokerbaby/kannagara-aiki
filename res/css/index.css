@@ -1,0 +1,35 @@
+.main_header {
+    background-image: url('res/images/main/aikido-bokken.jpg');
+    height: 300px;
+    background-size: contain;
+}
+
+nav {
+    margin-bottom: 150px;
+}
+
+.about p:last-child {
+    padding-bottom: 100px;
+}
+
+.menu_link, .dropbtn {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.about {
+    color: white;
+}
+
+#kid {
+    float: right;
+    display: block;
+    margin-left: 10px;
+}
+
+#kotegaeshi {
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
