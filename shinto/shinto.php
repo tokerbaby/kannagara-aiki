@@ -10,10 +10,10 @@
         <meta name="description" content="The HTML5 Herald">
         <meta name="author" content="SitePoint">
 
-        <link rel="stylesheet" type="text/css" href="../css/header.css">
-        <link rel="stylesheet" type="text/css" href="../css/footer.css">
-        <link rel="stylesheet" type="text/css" href="../css/general.css">
-        <link rel="stylesheet" type="text/css" href="../css/shinto.css">
+        <link rel="stylesheet" type="text/css" href="../res/css/header.css">
+        <link rel="stylesheet" type="text/css" href="../res/css/footer.css">
+        <link rel="stylesheet" type="text/css" href="../res/css/general.css">
+        <link rel="stylesheet" type="text/css" href="../res/css/shinto.css">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -60,14 +60,14 @@
 
         <div class="container">
             <div class="article">
-                <h2 class="article_title"><a href="otakebi.php">Отакэби - часть мисоги</a></h2>
+                <h2 class="article_title"><a href="../shinto/otakebi.php">Отакэби - часть мисоги</a></h2>
                 <h5></h5>
                 <div class="fakeimg"></div>
                 <p class="p">Комментарии к Отакэби, словам, выкрикивыемым во время Мисоги Дзюмбу Тайсо (действий во время выполнения подготовительной части ритуала очищения).</p>
             </div>
 
             <div class="article">
-                <h2 class="article_title"><a href="nakaima.php">Накаима</a></h2>
+                <h2 class="article_title"><a href="../shinto/nakaima.php">Накаима</a></h2>
                 <h5></h5>
                 <div class="fakeimg"></div>
                 <p class="p">Следующее связано с выражением важнейшего чувства - чувства благодарности, лежащего в основе Храмового Синто и всего понимания культуры.</p>

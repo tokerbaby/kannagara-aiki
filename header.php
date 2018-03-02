@@ -15,7 +15,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-10">
-						<a href="index.php"><img src="res/images/main/logo.gif" class="pt-2 pb-2" alt="Логотип Каннагара Додзё"></a>
+						<a href="index.php"><img src="/res/images/main/logo.gif" class="pt-2 pb-2" alt="Логотип Каннагара Додзё"></a>
 					</div>
 					<div class="col-sm-2 text-right">
 						<button onclick="document.getElementById('id1').style.display='block'" style="width:auto;">Login</button>
@@ -76,7 +76,7 @@
 			        </li>
 
 			        <li class="nav-item">
-			        	<a class="nav-link menu_link active" href="shinto.php">Беседы о Синто</a>
+			        	<a class="nav-link menu_link active" href="../shinto/shinto.php">Беседы о Синто</a>
 			        </li>
 
 			        <li class="nav-item">
@@ -84,10 +84,10 @@
 					  		<button class="dropbtn menu_dropdown">О клубе
 					  		</button>
 					 		<div class="dropdown-content">
-				    			<a href="about.php">Преподаватели</a>
-				    			<a href="about/mentors.php">Наставники и коллеги</a>
-				    			<a href="about/exams.php">Экзамены</a>
-				    			<a href="about/rules.php">Правила</a>
+				    			<a href="../about/about.php">Преподаватели</a>
+				    			<a href="../about/mentors.php">Наставники и коллеги</a>
+				    			<a href="../about/exams.php">Экзамены</a>
+				    			<a href="../about/rules.php">Правила</a>
 					  		</div>
 						</div>
 			        </li>
@@ -97,9 +97,9 @@
 					  		<button class="dropbtn menu_dropdown">Детский мир айкидо
 					  		</button>
 					 		<div class="dropdown-content">
-				    			<a href="php/children/children.php">Айкидо для школьников</a>
-				    			<a href="children/preschoolers.php">Айкидо для дошкольников</a>
-				    			<a href="children/first.php">Первое занятие</a>
+				    			<a href="../children/children.php">Айкидо для школьников</a>
+				    			<a href="../children/preschoolers.php">Айкидо для дошкольников</a>
+				    			<a href="../children/first.php">Первое занятие</a>
 					  		</div>
 						</div>
 			        </li>
@@ -109,10 +109,10 @@
 					  		<button class="dropbtn menu_dropdown">О занятиях
 					  		</button>
 					 		<div class="dropdown-content">
-				    			<a href="schedule.php">Расписание</a>
-				    			<a href="fees.php">Стоимость</a>
-				    			<a href="neophyte.php">Новичку</a>
-				    			<a href="wheretobuy.php">Где купить</a>
+				    			<a href="../classes/schedule.php">Расписание</a>
+				    			<a href="../classes/fees.php">Стоимость</a>
+				    			<a href="../classes/neophyte.php">Новичку</a>
+				    			<a href="../classes/wheretobuy.php">Где купить</a>
 					  		</div>
 						</div>
 			        </li>
