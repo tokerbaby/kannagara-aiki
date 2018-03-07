@@ -89,14 +89,14 @@ button.dropbtn.menu_dropdown:focus {
     height: 300px;
     background-size: contain;
     background-color: #f7f5f7;
-    background-image: url('/images/header/koi.jpg');
+    background-image: url('../images/header/koi.jpg');
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1650px) {
     .header_container{
-        background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 100%), url('/images/header/koi.jpg');
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 100%), url('../images/header/koi.jpg');
     }
 }
 
@@ -173,5 +173,11 @@ button.dropbtn.menu_dropdown:focus {
 @media screen and (max-width: 1091px) {
     .pc_menu {
         display: none;
+    }
+}
+
+@media (min-width: 992px) {
+        .navbar-toggleable-md .navbar-nav .nav-link {
+        padding-left: 15px !important;
     }
 }

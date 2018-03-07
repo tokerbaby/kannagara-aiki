@@ -22,27 +22,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .h2 {
-	font-size: 45px !important;
+	font-size: 32px !important;
 	font-weight: 600 !important;
 	padding-top: 40px;
-	margin-bottom: 50px !important;
+	margin-bottom: 30px !important;
 }
 
 .h3 {
-	font-size: 22px !important;
-	margin-top: 30px;
+	font-size: 30px !important;
+	margin-bottom: 20px !important;
 	font-weight: 500 !important;
 }
 
 .h4 {
-	font-size: 16px !important;
+	font-size: 22px !important;
 	font-weight: 600 !important;
 	margin-top: -5px;
 }
 
 .p {
 	margin-top: 12px;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 small {
@@ -50,8 +50,8 @@ small {
 }
 
 .hr {
-	margin-top: 20px;
-	margin-bottom: 30px;
+	margin-top: 60px;
+	margin-bottom: 40px;
 }
 
 .section {
@@ -70,10 +70,11 @@ li {
 }
 
 a {
-	color: #5c5c5c !important;
+	color: #9a0018 !important;
+    font-weight: 600;
 }
 
-a:hover {
+.breadcrumb a:hover {
 	color: #191970 !important;
 	text-decoration: none !important;
 	transition: all 0.25s ease-out;
@@ -143,8 +144,8 @@ ul.breadcrumb li a:hover {
     width: 100%;
     border: none;
     background-color: white;
-    padding: 14px 0;
-    font-size: 25px;
+    padding: 14px 10px;
+    font-size: 16px;
     cursor: pointer;
     text-align: left;
 }

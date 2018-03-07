@@ -3,20 +3,20 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <!-- Responsive meta-tag -->
+        <!-- ../responsive meta-tag -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <title>The HTML5 Herald</title>
         <meta name="description" content="The HTML5 Herald">
         <meta name="author" content="SitePoint">
 
-        <link rel="stylesheet" type="text/css" href="../res/css/header.css">
-        <link rel="stylesheet" type="text/css" href="../res/css/footer.css">
-        <link rel="stylesheet" type="text/css" href="../res/css/general.css">
-        <link rel="stylesheet" type="text/css" href="../res/css/about.css">
+        <link rel="stylesheet" type="text/css" href="../../res/css/header.css">
+        <link rel="stylesheet" type="text/css" href="../../res/css/footer.css">
+        <link rel="stylesheet" type="text/css" href="../../res/css/general.css">
+        <link rel="stylesheet" type="text/css" href="../../res/css/about.css">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoI../resjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     </head>
 
     <body>
@@ -43,7 +43,7 @@
                     <div class="row">
 
                         <div class="col-md-4 teacher_info">
-                            <img src="images/about/teachers/Oleg.jpg" alt="avatar" class="img-responsive d-block mx-auto">
+                            <img src="../res/images/about/Oleg.jpg" alt="avatar" class="img-../responsive d-block mx-auto">
                             <h3 class="h3">Глушко Олег Михайлович</h3>
                             <p class="title">Додзё-тё - старший преподаватель</p>
                             <p class="p">
@@ -53,7 +53,7 @@
                         </div>
 
                         <div class="col-md-4 teacher_info">
-                            <img src="images/about/teachers/Vyacheslav.jpg" alt="avatar" class="img-responsive d-block mx-auto">
+                            <img src="../res/images/about/Vyacheslav.jpg" alt="avatar" class="img-../responsive d-block mx-auto">
                             <div class="container card_content">
                                 <h3 class="h3">Егоров Вячеслав Андреевич</h3>
                                 <p class="p">Сидан (4-й дан) айкидо Айкикай </p>
@@ -61,7 +61,7 @@
                         </div>
 
                         <div class="col-md-4 teacher_info">
-                            <img src="images/about/teachers/Andrey.jpg" alt="avatar" class="img-responsive d-block mx-auto">
+                            <img src="../res/images/about/Andrey.jpg" alt="avatar" class="img-../responsive d-block mx-auto">
                             <div class="container card_content">
                                 <h3 class="h3">Кондрашов Андрей Владимирович</h3>
                                 <p class="p">Сандан (3-й дан) айкидо Айкикай</p>
@@ -71,7 +71,7 @@
 
                     <div class="row">
                         <div class="col-md-4 teacher_info">
-                            <img src="images/about/teachers/Rashid.jpg" alt="avatar" class="img-responsive d-block mx-auto">
+                            <img src="../res/images/about/Rashid.jpg" alt="avatar" class="img-../responsive d-block mx-auto">
                             <div class="container card_content">
                                 <h3 class="h3">Янбаев Рашид Иванович</h3>
                                 <p class="p">Сандан (3-й дан) айкидо Айкикай</p>
@@ -79,7 +79,7 @@
                         </div>
 
                         <div class="col-md-4 teacher_info">
-                            <img src="images/about/teachers/Igor.jpg" alt="avatar" class="img-responsive d-block mx-auto">
+                            <img src="../res/images/about/Igor.jpg" alt="avatar" class="img-../responsive d-block mx-auto">
                             <div class="container card_content">
                                 <h3 class="h3">Ксенофонтов Игорь Владимирович</h3>
                                 <p class="p">Сандан (3-й дан) айкидо Айкикай</p>
@@ -92,7 +92,7 @@
                     <h2 class="h2">Наставники и коллеги</h2>
 
                     <div class="mentor_info">
-                        <a href="#"><img src="images/about/mentors/paul.jpg"></a>
+                        <a href="#"><img src="../res/images/about/paul.jpg"></a>
                         <h3 class="h3"><a href="#">Поль Мюллер-сэнсэй (Paul Muller)</a></h3>
                         <h4 class="h4">7 дан Айкидо Айкикай, 7 дан айкидо FFAAA, 5 дан Иайдо Тохо</h4>
                         <p class="p text-left">
@@ -104,7 +104,7 @@
                     </div>
 
                     <div class="mentor_info">
-                        <a href="#"><img src="images/about/mentors/barrish.jpg"></a>
+                        <a href="#"><img src="../res/images/about/barrish.jpg"></a>
                         <h3 class="h3"><a href="#">Коити Бэрриш-сэнсэй (Koichi Barrish)</a></h3>
                         <h4 class="h4">Сокэ</h4>
                         <p class="p text-left">
@@ -113,7 +113,7 @@
                     </div>
 
                     <div class="mentor_info">
-                        <a href="#"><img src="images/about/mentors/kevin.jpg"></a>
+                        <a href="#"><img src="../res/images/about/kevin.jpg"></a>
                         <h3 class="h3"><a href="#">Кевин Шоэт-сэнсей (Kevin Choate)</a></h3>
                         <h4 class="h4">6-й дан айкидо Айкикай</h4>
                         <p class="p text-left">
@@ -122,7 +122,7 @@
                     </div>
 
                     <div class="mentor_info">
-                        <a href="#"><img src="images/about/mentors/takao.jpg" style="width: 30%"></a>
+                        <a href="#"><img src="../res/images/about/takao.jpg" style="width: 30%"></a>
                         <h3 class="h3"><a href="#">Такао Арисуэ-сэнсэй (Takao Arisue)</a></h3>
                         <h4 class="h4">7 дан Айкидо Айкикай и 7 дана Иайдо Тохо</h4>
                         <p class="p text-left">
@@ -131,7 +131,7 @@
                     </div>
 
                     <div class="mentor_info">
-                        <a href="#"><img src="images/about/mentors/nishio.jpg" style="width: 30%"></a>
+                        <a href="#"><img src="../res/images/about/nishio.jpg" style="width: 30%"></a>
                         <h3 class="h3"><a href="#">Сёдзи Нисио-сэнсэй (Shoji Nishio)</a></h3>
                         <h4 class="h4">Сихан, 8-й дан айкидо Айкикай</h4>
                         <p class="p text-left">

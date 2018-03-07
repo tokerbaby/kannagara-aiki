@@ -15,12 +15,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-10">
-						<a href="index.php"><img src="/res/images/main/logo.gif" class="pt-2 pb-2" alt="Логотип Каннагара Додзё"></a>
+						<a href="../index.php"><img src="../res/images/main/logo.gif" class="pt-2 pb-2" alt="Логотип Каннагара Додзё"></a>
 					</div>
 					<div class="col-sm-2 text-right">
 						<button onclick="document.getElementById('id1').style.display='block'" style="width:auto;">Login</button>
-						<img src="res/images/main/sign-in.png" id="login" alt="Вход в ЛК">
-						<img src="res/images/main/en.png" id="en_ru" alt="Изменить язык">
+						<img src="../res/images/main/sign-in.png" id="login" alt="Вход в ЛК">
+						<img src="../res/images/main/en.png" id="en_ru" alt="Изменить язык">
 					</div>
 				</div>
 			</div>
@@ -72,7 +72,7 @@
 		  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav mr-auto">
 			    	<li class="nav-item">
-			        	<a class="nav-link menu_link" href="index.php">Главная</a>
+			        	<a class="nav-link menu_link" href="../index.php">Главная</a>
 			        </li>
 
 			        <li class="nav-item">
@@ -112,20 +112,21 @@
 				    			<a href="../classes/schedule.php">Расписание</a>
 				    			<a href="../classes/fees.php">Стоимость</a>
 				    			<a href="../classes/neophyte.php">Новичку</a>
-				    			<a href="../classes/wheretobuy.php">Где купить</a>
+				    			<a href="../classes/shop.php">Где купить</a>
 					  		</div>
 						</div>
 			        </li>
 
 			        <li class="nav-item">
-			        	<a class="nav-link menu_link" href="#">Контакты</a>
+			        	<a class="nav-link menu_link" href="../contacts/contacts.php">Контакты</a>
 			        </li>
 
 			        <li class="nav-item">
 				        <div class="dropdown">
 						  	<button class="dropbtn menu_dropdown">Семинары</button>
 						  	<div class="dropdown-content">
-							    <a href="#">О семинарах</a>
+							    <a href="../seminars/seminars.php">О семинарах</a>
+							    <a href="../seminars/seminars.php">Семинары 2018</a>
 							    <a href="#">Архив</a>
 							    <a href="#">Фото</a>
 						  	</div>
@@ -144,7 +145,7 @@
 
 <div class="container mobile_menu text-right" style="margin:15; padding:0;">
 	<div class="text-left">
-		<a href="index.php"><img src="images/main/logo.gif" class="pt-4" alt="Логотип Каннагара Додзё"></a>
+		<a href="index.php"><img src="../res/images/main/logo.gif" class="pt-4" alt="Логотип Каннагара Додзё"></a>
     </div>
 	<div id="mySidenav" class="sidenav">
 	  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -185,7 +186,7 @@
 	            	<a href="classes/schedule.php" class="list-group-item">Расписание</a>
 	            	<a href="classes/fees.php" class="list-group-item">Стоимость</a>
 	            	<a href="classes/neophyte.php" class="list-group-item">Новичку</a>
-	            	<a href="classes/wheretobuy.php" class="list-group-item">Где купить</a>
+	            	<a href="classes/shop.php" class="list-group-item">Где купить</a>
 	          	</div>
 
 	          	<!-- 5th -->
