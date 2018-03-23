@@ -14,7 +14,7 @@
  */
 module.exports = {
     "ui": {
-        "port": 3001
+        "port": 8080
     },
     "files": ["**/*.php", "**/*.css"],
     "watchEvents": [
@@ -26,8 +26,8 @@ module.exports = {
     "watchOptions": {
         "ignoreInitial": true
     },
-    "server": false,
-    "proxy": "aiki.ru",
+    "server": true,
+    "proxy": "localhost:8080",
     "port": 8080,
     "middleware": false,
     "serveStatic": [],

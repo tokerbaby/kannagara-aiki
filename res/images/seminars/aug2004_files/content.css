@@ -1,0 +1,501 @@
+/* видео старт */
+.video {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 1px;
+  padding: 16px;
+}
+.video:not(:last-child) {
+  margin-bottom: 15px;
+}
+.video__row {
+  width: 100%;
+}
+.video__image-link {
+  display: inline-block;
+  position: relative;
+}
+.video__image-link img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 2px;
+  margin:0 auto;
+}
+.video__play-icon-link {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+}
+.video__play-icon-link svg {
+  fill: #fff;
+  width: 100%;
+  height: 100%;
+}
+.video__image-link:hover .video__play-icon-link svg {
+  fill: red;
+}
+.video__caption {
+  display: block;
+  margin-top: 8px;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.fancybox-slide--video .fancybox-content {
+  width: 1024px;
+  height: 768px;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.section--homevideos{
+    margin: 15px 0 50px 0;
+    padding-top: 15px;
+    background-color: rgba(255,255,255,.1);
+}
+
+.section--homevideos .section__title{
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+.section--homevideos .video{
+    background: none;
+}
+
+.section--homevideos .section__col{
+    width: 33.333%;
+}
+.section--homevideos .video__play-icon-link {
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -64px;
+  margin-left: -64px;
+}
+/* видео енд */
+
+
+/* order form  */
+
+	.blockForm
+	{
+		width:80%;
+		background:#EAF1F6;
+		border-left:1px solid #B3BEC7;
+		border-right:1px solid #B3BEC7;
+		padding:20px;
+		font-family:Verdana,Arial,sans-serif;
+		-moz-border-radius:10px;
+		-webkit-border-radius:10px;
+		border-radius:10px;
+	}
+	.blockForm p {font-family:Verdana,Arial,sans-serif; margin:0}
+	.blockForm h3
+	{
+		font-weight:bold;
+		font-size:95%;
+	}
+	.blockForm h4
+	{
+		font-size:85%;
+		color:#333;
+		margin-bottom:5px;
+	}
+	.blockForm input,
+	.blockForm textarea
+	{
+		border:1px solid #B3BEC7;
+		margin-bottom:10px;
+		width:100%;
+	}
+	
+	#sendButtonBlock {
+		margin-top:20px;
+		cursor:pointer;
+		width: 141px;
+		height: 34px;
+		background: url('/i/sendButton.gif');
+	}
+
+/*  end order form */
+
+
+#loginPanel {
+	position: absolute; 
+	top: 350px; 
+	//top: 79px; 
+	/*left: 62%; */
+	left:5%;
+	/*background: #efefef;*/
+	z-index:4;
+	float:left;
+	//float: right;
+	//width: 100%;
+	display: none;
+}
+
+#loginPanelHeaderInner {
+	background: url(/i/closePic.gif) no-repeat right 4px; 
+	float: right; 
+	padding: 0 20px 0 0;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+}
+
+#loginPanelHeaderInner span {text-decoration: underline; font-size: 0.9em; color:#cc0000}
+
+#loginPanelHeader {
+	background: #EFEFEF; 
+	overflow: hidden; 
+	padding: 5px 5px 6px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	zoom: 1;
+	//float: right;
+	//width: 281px;
+}
+#LoginForm {font-size: 0.9em; zoom:1; //float: left;}
+#LoginForm table {//width: auto;}
+#LoginForm .comment {
+	font-size: 0.8em; 
+	line-height: 1.2em; 
+	color: #666666; 
+	margin: 15px 0 0 0;
+	zoom:1;
+}
+#LoginForm .comment a { color: #cc0000;}
+#loginPanelMainPart {
+	padding: 15px 20px 15px 20px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	background: #efefef;
+	zoom:1;
+	//float:right;
+	//clear: both;
+}
+#enterButton {
+	margin: 5px 0 0 0; 
+	background: url(/i/enterButton.gif) no-repeat top left; 
+	width: 59px; 
+	height: 22px;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+#loginLabel {padding: 0 10px 5px 0; vertical-align: middle;color:#333}
+.loginFormRow td {padding-bottom: 5px;}
+
+#megaBgHalfTransp {
+	position: fixed; 
+	top: 0px; 
+	left: 0px; 
+	width: 100%; 
+	height: 100%; 
+	/*min-height: 100%;*/
+	background-color: #000; 
+	z-index:1;
+	opacity: 0.6;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+	display: none;
+	//position: absolute;
+    //top:expression(eval(document.documentElement.scrollTop));
+
+}
+
+
+/* time table*/
+
+table.TimeTableHeader{clear:both; width:1100px; border-collapse:collapse; margin: 0}
+table.TimeTableHeader td{font-size:75%; color:#666; padding: 0.5em 5px;font-weight:normal;text-align:center}
+table.TimeTableHeader td.red{color:#e94646;}
+
+.keikoGroup ul{margin: 0 0 0 30px; padding:0; font-size:75%; color:#333; clear:both;}
+.keikoGroup ul li{float:left; list-style-type:none; background:none; color:#333; line-height:1.2em; margin: 0 20px 0 0; padding: 0.4em 10px;}
+.keikoGroup ul li.cur{background-color:#00236a; color:#fff;}
+
+
+.monthClick{font-size:120%}
+.monthNoClick{font-size:210%}
+
+table.TimeTable{clear:both; width:1100px; border-collapse:collapse; margin: 0}
+table.TimeTable td{font-size:75%; color:#666; padding: 0.5em 5px; border-bottom: 1px solid #dedede;border-right: 1px solid #dedede;}
+
+table.TimeTable tr.trmark td{background:#f3f3f3}
+table.TimeTable tr.trmark td.mark{background:#999}
+
+table.TimeTable td.mark{background-color:#999}
+table.TimeTable td.red{color:#e50000;}
+table.TimeTable td p{font-size:100%; margin:0; line-height:normal;}
+
+table.TimeTable td.Payment{border-right:none;padding:0 15px}
+
+table#member a.name{
+	float:left;
+	position:relative;
+}
+
+table#member a.name div{
+	position:absolute;
+	left:110%;
+	top:0; 
+}
+
+a.AikidokaName
+{
+	display:block;
+	position:relative;
+	background:url('/i/mudansha.gif') no-repeat left top;
+	padding-left:15px;
+	height:19px
+}
+
+a.AikidokaNameBlack
+{
+	display:block;
+	position:relative;
+	background:url('/i/yudansha.gif') no-repeat left top;
+	padding-left:15px;
+	height:19px
+}
+
+
+.AikidokaName div
+{
+	display:none;
+	background:#fff;
+	padding:5px;
+	border:1px solid #333;
+	z-index:100;
+	left:180;
+}
+
+.AikidokaNameBlack div
+{
+	display:none;
+	background:#fff;
+	padding:5px;
+	border:1px solid #333;
+	z-index:100;
+	left:180;
+}
+
+.AikidokaName:hover div
+{
+	position:absolute;
+	display:block;
+}
+
+.AikidokaNameBlack:hover div
+{
+	position:absolute;
+	display:block;
+}
+
+.dropAikidoka{
+	background-image: url('/i/delete.gif');
+	background-repeat: no-repeat;	
+	overflow: hidden;
+	width:11px;
+	height:12px;
+}
+
+
+.yesPayment,
+.noPayment
+{
+	background-image: url('/i/paybul.gif');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	width:8px;
+	height:8px;
+}
+
+
+.noPayment
+{
+	background-position: 0 0;
+}
+
+.yesPayment
+{
+	background-position: 0 -8;
+}
+
+
+#TimeTableTop {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	//position: absolute;
+	top: expression(document.getElementsByTagName("body")[0].scrollTop + "px");
+	background:#fff;
+}
+
+
+
+
+/* header */
+tr.inline .headerMenuList{padding: 4em 40px 2em 10px;}
+tr.inline .headerPhone{padding:4em 40px 2em 10px;}
+tr.inline .headerLogo{padding:2em 40px 2em 0; margin-left:-10px;}
+
+
+.headerMenuList ul{margin: 0 0 0 -10px; padding:0; font-size:75%; color:#333; clear:both;}
+.headerMenuList ul li{float:left; list-style-type:none; background:none; color:#333; line-height:1.2em; margin: 0 20px 0 0; padding: 0.4em 10px;}
+.headerMenuList ul li.cur{background-color:#00236a; color:#fff;}
+.headerMenuList ul li.cur a,
+.twoMenuList li.cur a{
+	color:#fff;
+}
+
+.headerPhone small{color:#333; font-size:70%;}
+.headerPhone strong{color:#333; font-size:120%;}
+.headerPhone a{display:block; font-size:70%; padding-top:0.1em;}
+
+
+/* menu */
+.twoMenuList{margin: 0 0 1em 0; padding: 0 20px 0 0px; font-size:100%; color:#333;}
+.twoMenuList strong{display:block; font-size:75%; padding: 0.5em 10px 0.5em 10px; line-height:1.3em;}
+.twoMenuList li{list-style-type:none; background:none; color:#333; font-size:70%; line-height:1.2em; margin: 0 0 0.4em 10px; padding: 0.3em 10px 0.3em 10px;}
+.twoMenuList li.cur{
+	background-color:#00236a;
+	color:#fff;
+}
+
+.oneMenuList{margin: 0 0 2em 0; padding: 0 20px 0 0; font-size:100%; color:#333;}
+.oneMenuList li{list-style-type:none; background:none; color:#333; font-size:75%; line-height:1.2em; margin: 0 0 0.4em 10px; padding: 0.4em 10px 0.4em 10px;}
+
+
+/* home */
+.homeCenterBlock{padding-right: 40px;}
+.homeCenterBlock .homeParagraph{padding: 2em 10px 0 10px;}
+.homeblockParagraph{padding: 2em 40px 0 10px;}
+.homeblockAnons{padding: 3em 40px 0 10px;}
+
+.fullHomeCatBlock{padding: 1em 40px 2em 2px;}
+.fullHomeCatBlock h4{font-size:85%; font-weight:normal; margin: 0.7em 0 0.3em 8px; color:#333;}
+.fullHomeCatBlock ul{margin: 0; padding:0; font-size:100%; color:#333;}
+.fullHomeCatBlock ul li{list-style-type:none; background:none; color:#333; font-size:70%; line-height:1.2em; margin: 0 0 0 8px; padding: 0.3em 0;}
+
+.homeCatBlock{padding: 1em 40px 2em 2px;}
+.homeCatBlock h4{font-size:85%; font-weight:normal; margin: 0.7em 0 0.3em 8px; color:#333;}
+.homeCatBlock p{font-size:70%; line-height: 1.3em; color:#666; margin: 0 0 0 8px;}
+.homeCatBlock p p{font-size:100%; line-height:normal;}
+
+.homeAnonsTable td{padding: 0 0 0.6em;}
+.homeAnonsTable td.text{padding-bottom: 2em;}
+.homeAnonsTable h4{font-size:90%; font-weight:normal; margin: 0 0 0.3em 0;}
+.homeAnonsTable p{font-size:70%; color:#333; margin:0; line-height:1.4em;}
+.homeAnonsTable p p{font-size:100%; line-height:normal;}
+
+.homeGoodTable td{padding: 1.3em 40px 4em 0; font-size:75%;}
+.homeGoodTable .descrBlock{clear:both; padding: 0.8em 0 0 0;}
+.homeGoodTable .descrBlock h4{font-weight:normal; margin: 0 0 0.3em 0;}
+.homeGoodTable .descrBlock div{line-height:1.3em;}
+.homeGoodTable .descrBlock p{font-size:90%; line-height:1.3em; margin: 0 0 0.7em 0; color:#999;}
+
+.home20Banner
+{
+	position: relative;
+	left: 65%;
+	width:229px;
+}
+
+
+/* footer */
+#footerBg{padding-top:1.5em;}
+#footerContacts{padding: 2em 40px 2em 10px;}
+#footerContacts small{font-size:70%; color:#666;}
+#footerContacts small.none{color:#fff; visibility: hidden;}
+#footerContacts strong{font-size:80%; color:#666;}
+#footerContacts p{font-size:70%; color:#666; line-height:1.3em; margin: 0.6em 0 2em 0;}
+#footerTl{padding: 2em 40px 2em 5px;}
+a.tlLink{display:block; padding-top:0.6em; font-size:70%;}
+
+
+/* catalogue */
+.catalogueBlock{padding-bottom:3em;}
+
+.goodListTable {border-collapse: collapse;}
+.goodListTable td{padding: 0.5em 10px 0.6em 10px; font-size:75%; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.goodListTable td strong{font-size:120%; font-weight:normal;}
+.goodListTable td small{font-size:90%;}
+.goodListTable td.price{white-space: nowrap;}
+.goodListTable tr.variant td{font-size:70%; padding: 0 10px 0.6em 25px; border:0;}
+.goodListTable tr.variant td.price{padding-left:10px;}
+.goodListTable td p{font-size:90%; line-height:1.3em; margin: 0 0 0.7em 0; color:#999;}
+
+.goodBlockTable td{padding: 2em 0; font-size:75%;}
+.goodBlockTable td.img{clear:both;}
+.goodBlockTable td.descr{padding: 2em 40px 2em 25px;}
+.goodBlockTable td.descr h4{font-weight:normal; margin: 0 0 0.3em 0;}
+.goodBlockTable td.descr div{line-height:1.3em;}
+.goodBlockTable td.descr p{font-size:90%; line-height:1.3em; margin: 0 0 0.7em 0; color:#999;}
+
+
+/* goodpage */
+.goodOnePrice{padding: 0.2em 0 2em 0; font-size:80%;}
+.goodVarPrice{padding: 0.8em 0 2em 0; font-size:75%; line-height:1.8em;}
+
+.rightGoodOnePrice{background-color:#efefef; margin: 0.8em 40px 0 0; padding: 15px; line-height:1.3em;}
+.rightGoodOnePrice small{font-size:70%;}
+.rightGoodVarPrice{background-color:#efefef; font-size:80%; margin: 0.8em 40px 0 0; padding: 15px; line-height:1.5em;}
+
+.goodCharacteristics{border-collapse: collapse; border-bottom: 1px solid #ccc;}
+.goodCharacteristics td{padding: 0.5em 10px 0.6em 10px; font-size:75%; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.goodCharacteristics th{padding: 0.5em 10px 0.6em 10px; font-size:80%; border-top: 1px solid #ccc; border-bottom: 0;}
+.goodCharacteristics tr.inside td{border:0; font-size:70%; padding-top:0;}
+
+/* Форма запроса
+-----------------------------------*/
+table.form{width:580px;}
+table.form td{font-size:75%; color:#333; padding: 0.3em 20px 0.3em 0;}
+table.form td.leftCol{width:200px; padding-top:0.6em;}
+/**/
+
+
+/* editForm */
+#editItem{
+	margin:0;
+	padding:0;
+}
+
+#editItem td{
+	vertical-align:top;
+	padding-bottom:10px;
+	padding-right:10px;
+}
+
+fieldset{
+	border:none;
+	margin:0;
+	padding:0;
+}
+/* editForm */
+
+
+.editable{
+	color:#239731 !important;
+	cursor: help;
+}
+
+.editable:hover{
+	color:#b40d0d !important;
+}
+

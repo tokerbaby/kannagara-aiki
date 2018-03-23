@@ -85,8 +85,8 @@
 					  		</button>
 					 		<div class="dropdown-content">
 				    			<a href="../about/about.php">Преподаватели</a>
-				    			<a href="../about/mentors.php">Наставники и коллеги</a>
-				    			<a href="../about/exams.php">Экзамены</a>
+				    			<a href="../about/about.php#mentors">Наставники и коллеги</a>
+				    			<a href="../about/about.php">Экзамены</a>
 				    			<a href="../about/rules.php">Правила</a>
 					  		</div>
 						</div>
@@ -128,7 +128,7 @@
 							    <a href="../seminars/seminars.php">О семинарах</a>
 							    <a href="../seminars/seminars.php">Семинары 2018</a>
 							    <a href="#">Архив</a>
-							    <a href="#">Фото</a>
+							    <a href="#">Фотографии</a>
 						  	</div>
 						</div>
 			      	</li>

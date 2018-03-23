@@ -118,27 +118,30 @@
                     <h2 class="h2">Фотографии с семинаров</h2>
 
                     <div class="row gallery">
-                        <div class="col-md-3">
-                            <a href="">
-                                <img src="../res/images/seminars/6003.jpg" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <a href="">
                                 <img src="../res/images/seminars/6010.jpg" class="img-responsive">
+                                <div class="overlay">Семинар Такао Арисуэ-сэнсэя, 2013</div>
                             </a>
                         </div>
-                         <div class="col-md-3">
+                        <div class="col-md-4">
                             <a href="">
-                                <img src="../res/images/seminars/6022.jpg" class="img-responsive">
+                                <img src="../res/images/seminars/3837.jpg" class="img-responsive">
+                                <div class="overlay">Семинар Поля Мюллера-сэнсэя, 2012</div>
                             </a>
                         </div>
-                        <div class="col-md-3">
+                         <div class="col-md-4">
                             <a href="">
-                                <img src="../res/images/seminars/6024.jpg" class="img-responsive">
+                                <img src="../res/images/seminars/3816.jpg" class="img-responsive">
+                                <div class="overlay">Семинар Такао Арисуэ-сэнсэя, 2011</div>
                             </a>
                         </div>
                     </div>
+                    <p align="center">
+                        <a href="gallery.php" class="btn btn-primary">
+                            Смотреть все альбомы
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
