@@ -50,3 +50,7 @@ img:hover {
 .sidebar a {
     color: #191970 !important;
 }
+
+li {
+    list-style-type: none;
+}

@@ -86,8 +86,8 @@
 					 		<div class="dropdown-content">
 				    			<a href="../about/about.php">Преподаватели</a>
 				    			<a href="../about/about.php#mentors">Наставники и коллеги</a>
-				    			<a href="../about/about.php">Экзамены</a>
-				    			<a href="../about/rules.php">Правила</a>
+				    			<a href="../about/about.php#exams">Экзамены</a>
+				    			<a href="../about/rules.php#rules">Правила</a>
 					  		</div>
 						</div>
 			        </li>

@@ -55,19 +55,19 @@
 
             <div class="row gallery">
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="july2009.php">
                         <img src="../res/images/seminars/2259.jpg" class="img-responsive">
                         <div class="overlay">Семинар Поля Мюллера-сэнсэя в Москве, июль 2009</div>
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="may2009.php">
                         <img src="../res/images/seminars/2174.jpg" class="img-responsive">
                         <div class="overlay">Семинар Коити Бэрриш-сэнсэя в Москве, май 2009</div>
                     </a>
                 </div>
                  <div class="col-md-4">
-                    <a href="">
+                    <a href="nov2008.php">
                         <img src="../res/images/seminars/2096.jpg" class="img-responsive">
                         <div class="overlay">Семинар Поля Мюллера-сэнсэя в Москве, ноябрь 2008</div>
                     </a>
@@ -76,19 +76,19 @@
 
             <div class="row gallery">
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="aug2008.php">
                         <img src="../res/images/seminars/2062.jpg" class="img-responsive">
                         <div class="overlay">Семинар Поля Мюллера-сэнсэя в Ваттенсе (Австрия), август 2008</div>
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="may2008.php">
                         <img src="../res/images/seminars/2033.jpg" class="img-responsive">
                         <div class="overlay">Семинар Коити Бэрриша-сэнсэя в Москве, май 2008</div>
                     </a>
                 </div>
                  <div class="col-md-4">
-                    <a href="">
+                    <a href="nov2007.php">
                         <img src="../res/images/seminars/2121.jpg" class="img-responsive">
                         <div class="overlay">Семинар Поля Мюллера-сэнсэя в Москве, ноябрь 2007</div>
                     </a>
@@ -97,19 +97,19 @@
 
             <div class="row gallery">
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="aug2007.php">
                         <img src="../res/images/seminars/537.jpg" class="img-responsive">
                         <div class="overlay">Семинар Поля Мюллера-сэнсэя в Ваттенсе (Австрия), август 2007</div>
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="may2007.php">
                         <img src="../res/images/seminars/490.jpg" class="img-responsive">
                         <div class="overlay">Семинар Коичи Бэрриша-сэнсэя в Москве, Каннагара Додзё, май 2007</div>
                     </a>
                 </div>
                  <div class="col-md-4">
-                    <a href="">
+                    <a href="oct2006.php">
                         <img src="../res/images/seminars/471_400.jpg" class="img-responsive">
                         <div class="overlay">Семинар Поля Мюллера-сэнсэя, октябрь 2006</div>
                     </a>
@@ -118,7 +118,7 @@
 
             <div class="row gallery">
                 <div class="col-md-4">
-                    <a href="">
+                    <a href="aug2004.php">
                         <img src="../res/images/seminars/2218.jpg" class="img-responsive">
                         <div class="overlay">Семинар Поля Мюллера-сэнсэя в Буларисе, август 2004</div>
                     </a>
@@ -126,13 +126,11 @@
                 <div class="col-md-4">
                     <a href="">
                         <img src="" class="img-responsive">
-                        <div class="overlay"></div>
                     </a>
                 </div>
                  <div class="col-md-4">
                     <a href="">
                         <img src="" class="img-responsive">
-                        <div class="overlay"></div>
                     </a>
                 </div>
             </div>
