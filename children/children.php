@@ -20,29 +20,6 @@
     </head>
 
     <body>
-        <!--
-        <script type="text/javascript">
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function() {
-                    /* Toggle between adding and removing the "active" class,
-                    to highlight the button that controls the card */
-                    this.classList.toggle("active");
-
-                    /* Toggle between hiding and showing the active card */
-                    var card = this.nextElementSibling;
-                    if (card.style.display === "block") {
-                        card.style.display = "none";
-                    } else {
-                        card.style.display = "block";
-                    }
-                });
-            }
-        </script>
-        -->
-
         <div class="container-fluid header_container">
             
             <div class="container">
@@ -184,7 +161,7 @@
                     <textarea class="form-control" name="message" id="exampleTextarea" rows="3"><?php echo $comment;?></textarea>
                 </div>
 
-                <button type="submit" name="submit" value="Submit" class="btn btn-outline-primary btn-lg">Записаться в группу</button>
+                <button type="submit" name="submit" value="Submit" class="btn btn-primary">Записаться в группу</button>
             </form>
 
         </div>

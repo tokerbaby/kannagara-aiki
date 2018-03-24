@@ -126,15 +126,15 @@
 						  	<button class="dropbtn menu_dropdown">Семинары</button>
 						  	<div class="dropdown-content">
 							    <a href="../seminars/seminars.php">О семинарах</a>
-							    <a href="../seminars/seminars.php">Семинары 2018</a>
-							    <a href="#">Архив</a>
-							    <a href="#">Фотографии</a>
+							    <a href="../seminars/seminars.php#next_seminars">Семинары 2018</a>
+							    <a href="#archive">Архив</a>
+							    <a href="#gallery">Фотографии</a>
 						  	</div>
 						</div>
 			      	</li>
 
 			      	<li class="nav-item">
-			        	<a class="nav-link menu_link active" href="#">Видео</a>
+			        	<a class="nav-link menu_link active" href="../video/video.php">Видео</a>
 			        </li>
 
 			    </ul>

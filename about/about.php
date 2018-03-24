@@ -25,7 +25,7 @@
             <div class="container">
                 <?php include('../header.php') ?>
                 
-                <h1 class="h1 header_title">
+                <h1 class="h1 header_title" id="teachers">
                     О клубе
                 </h1>
 
@@ -88,7 +88,6 @@
                     </div>
 
                     <div id="mentors"></div>
-
                     <hr class="hr">
 
                     <h2 class="h2">Наставники и коллеги</h2>
@@ -136,12 +135,10 @@
                         <a href="#"><img src="../res/images/about/nishio.jpg" style="width: 30%"></a>
                         <h3 class="h3 mt-4"><a href="#">Сёдзи Нисио-сэнсэй (Shoji Nishio)</a></h3>
                         <h4 class="h4">Сихан, 8-й дан айкидо Айкикай</h4>
-                        <p class="p text-left">
+                        <p class="p text-left" id="exams">
                             Родился в пре­фектуре Аомори 5-го дня десятой луны во 2-й год эры Сёва (5 декабря 1927 г.). Член Айкикай Хомбу Додзё с 1951 г. Начал пре­подавать в 1955 г. Сихан, кёси, 7-й дан Федерации Дзэндоку Иайдо Японии. Родоначальник Иайдо Тохо - стиля, опирающегося на технику айкидо. Обладатель титула рэнси Федерации Иайдо Дай Ниппон Бутокукай.          
                         </p>
                     </div>
-
-                    <div id="exams"></div>
 
                     <hr class="hr">
 
@@ -158,11 +155,7 @@
                         <h3 class="h3 text-center">Экзаменационная программа</h3>
 
                         <?php include 'exams.php';?>
-                    </div>   
-
-                    <div id="rules"></div>    
-
-                    <hr class="hr">
+                    </div>
 
                     <a href="rules.php"><h2 class="h2">Правила</h2></a>
 

@@ -32,7 +32,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-12">
                     <h2 class="h2">Адреса залов</h2>
                     <h3 class="h3">Зал на Шаболовке</h3>
                     <p class="p">м. Шаболовская, ул. Академика Петровского, д. 10 (из выхода направо, 30 шагов, калитка, надпись МЦФПВ)</p>
@@ -40,7 +40,9 @@
                     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6d3f3d8a463a85cdc047e8a9b6d62c525f85f1565c0ec32996e64ba715f258ed&amp;width=350&amp;height=350&amp;lang=ru_RU&amp;scroll=true">
                     </script>
 
-                    <h3 class="h3">Зал на проспекте Мира</h3>
+                    <hr class="hr">
+
+                    <h3 class="h3 mt-5">Зал на проспекте Мира</h3>
                     <p class="p">с/к "Олимпийский", Олимпийский пр., 16 строение 1, 3 подъезд (от м. Пр. Мира - 4-5 минут)</p>
                     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A82b7d858edab551dcff37bdb639dd3a9fa199539cf53425db4ad772291a59583&amp;width=350&amp;height=350&amp;lang=ru_RU&amp;scroll=true">
                     </script>
@@ -49,13 +51,14 @@
 
                     <h3 class="h3">Телефоны</h3>
                     <p>
-                        +7 (917) 530-59-16 (детские группы)
+                        <a href="#">+7 (917) 530-59-16</a> (детские группы)
                         <br>
-                        +7 (925) 589-03-20
+                        <a href="#">+7 (925) 589-03-20</a>
                     </p>
                     <p>Почта для связи <a href="#">detmir-aiki@mail.ru</a></p>
                     <p>Желающие начать занятия в нашем Додзё проходят предварительное собеседование с преподавателем, после чего преподаватель рекомендует для занятий конкретную группу.</p>
                     
+                    <hr class="hr">
                     
                     <div class="container">
                         <div class="row">
