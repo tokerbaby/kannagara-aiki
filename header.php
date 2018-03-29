@@ -1,14 +1,4 @@
 <div class="container pc_menu" style="padding: 0;">
-	<!-- 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript">
-		$(window).scroll(function() {
-	    if ($(this).scrollTop() > 20) {
-		         $('nav').addClass('navbar');
-		    }
-		});
-	</script> 
-	-->
 
 	<nav class="navbar fixed-top navbar-toggleable-md navbar-light d-inline-block">
 		<div class="container-fluid navbar_top">
@@ -18,8 +8,7 @@
 						<a href="../index.php"><img src="../res/images/main/logo.gif" class="pt-2 pb-2" alt="Логотип Каннагара Додзё"></a>
 					</div>
 					<div class="col-sm-2 text-right">
-						<button onclick="document.getElementById('id1').style.display='block'" style="width:auto;">Login</button>
-						<img src="../res/images/main/sign-in.png" id="login" alt="Вход в ЛК">
+						<button class="btn btn-primary" onclick="document.getElementById('id1').style.display='block'" style="width:auto;">Login</button>
 						<img src="../res/images/main/en.png" id="en_ru" alt="Изменить язык">
 					</div>
 				</div>
@@ -39,7 +28,7 @@
 		          <label for="psw"><b>Пароль</b></label>
 		          <input type="password" placeholder="" name="psw" required>
 		            
-		          <button type="submit">Вход</button>
+		          <button class="btn btn-primary" type="submit">Вход</button>
 		          <label>
 		            <input type="checkbox" checked="checked" name="remember">Запомнить меня
 		          </label>

@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "super website",
+  "main": "bs-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://tokerbaby:sc28i3QW@github.com/tokerbaby/kannagara-aiki.git"
+  },
+  "author": "tokerbaby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tokerbaby/kannagara-aiki/issues"
+  },
+  "homepage": "https://github.com/tokerbaby/kannagara-aiki#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
+}
