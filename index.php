@@ -20,6 +20,8 @@
 	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	  	<!-- Fonts -->
 	  	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Open+Sans|Roboto" rel="stylesheet">
+		<!-- Font Awesome -->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
@@ -35,7 +37,7 @@
 					<br>
 					<small class="small">Айкидо для нас не бизнес. Для нас это Путь. Мы ищем единомышленников.</small>
 					</h1>
-					<p class="p" style="color: #880e4f;">Наше додзё основано в 1989 г. С тех пор занятия идут, не прекращаясь. Мы видим айкидо не только как острое оружие, но и как возможность развития личности.</p>
+					<p class="p">Наше додзё основано в 1989 г. С тех пор занятия идут, не прекращаясь. Мы видим айкидо не только как острое оружие, но и как возможность развития личности.</p>
 				</div>
 			</div>
 		</div>
@@ -44,7 +46,7 @@
 		<div class="container-fluid section" style="margin-top:0;">
 			<div class="container">
 				<h2 class="h2">Приглашаем ребят в детскую группу айкидо</h2>
-				<img src="res/images/main/kids.jpg" class="d-sm-none d-md-block9" id="kids">
+				<img src="res/images/main/kid.jpg" class="d-sm-none d-md-block9" id="kid">
 				<p class="p">Айкидо прекрасно подходит для занятий в самом раннем возрасте. Правильно поставленное преподавание айкидо помогает раскрытию творческих возможностей личности ученика.</p>
 				<p class="p">Айкидо учит мощи, но не грубости. Для занятий не требуется особых физических данных. Занятия айкидо так же хороши для девочек, как и для мальчиков.</p>
 				<p class="p">Мы хотим увидеть человека умелого, сильного, чувствующего, думающего. Важно, чтобы у взрослеющего человека выросло чувство собственного достоинства вместе с уважением к другим. Вооружённый человек должен особенно бережно относиться к живому. Этому, по нашему убеждению и должно научить айкидо.</p>

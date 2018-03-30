@@ -7,9 +7,15 @@
 					<div class="col-sm-10">
 						<a href="../index.php"><img src="../res/images/main/logo.gif" class="pt-2 pb-2" alt="Логотип Каннагара Додзё"></a>
 					</div>
-					<div class="col-sm-2 text-right">
-						<button class="btn btn-primary" onclick="document.getElementById('id1').style.display='block'" style="width:auto;">Login</button>
-						<img src="../res/images/main/en.png" id="en_ru" alt="Изменить язык">
+					<div class="col-sm-2 text-right	">
+						<!-- <button class="d-inline-block btn btn-primary" onclick="document.getElementById('id1').style.display='block'">
+							<i class="fas fa-user fa-fw"></i>
+							Вход
+						</button>
+						<button class="btn btn-primary">
+							<i class="fas fa-globe fa-fw"></i>
+							En
+						</button> -->
 					</div>
 				</div>
 			</div>
