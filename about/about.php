@@ -94,7 +94,7 @@
 
                     <div class="mentor_info">
                         <a href="#"><img src="../res/images/about/paul.jpg"></a>
-                        <h3 class="h3 mt-4"><a href="#">Поль Мюллер-сэнсэй (Paul Muller)</a></h3>
+						<h3 class="h3 mt-4"><a href="paulmuller.php">Поль Мюллер-сэнсэй (Paul Muller)</a></h3>
                         <h4 class="h4">7 дан Айкидо Айкикай, 7 дан айкидо FFAAA, 5 дан Иайдо Тохо</h4>
                         <p class="p text-left">
                             Профессор электроники в Страсбургском университете, Франция. Занимается Айкидо с 1967 г. В настоящее время 
