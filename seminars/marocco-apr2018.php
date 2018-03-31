@@ -1,72 +1,52 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <!-- Responsive meta-tag -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+		<meta charset="utf-8">
+		<!-- Responsive meta-tag -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>The HTML5 Herald</title>
-        <meta name="description" content="The HTML5 Herald">
-        <meta name="author" content="SitePoint">
+		<title>The HTML5 Herald</title>
+		<meta name="description" content="The HTML5 Herald">
+		<meta name="author" content="SitePoint">
 
-        <link rel="stylesheet" type="text/css" href="../res/css/header.css">
-        <link rel="stylesheet" type="text/css" href="../res/css/footer.css">
-        <link rel="stylesheet" type="text/css" href="../res/css/general.css">
+		<link rel="stylesheet" type="text/css" href="../res/css/header.css">
+		<link rel="stylesheet" type="text/css" href="../res/css/footer.css">
+		<link rel="stylesheet" type="text/css" href="../res/css/general.css">
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    </head>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+		      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+		      crossorigin="anonymous">
+	</head>
 
-    <body>
-        <div class="container-fluid header_container">
+	<body>
+		<div class="container-fluid header_container">
 
-            <div class="container">
+			<div class="container">
                 <?php include('../header.php') ?>
 
-                <h1 class="h1 header_title">
-                    Семинар в Марокко, апрель 2018
-                </h1>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <img src="../res/images/seminars/marocco-apr18.jpg">
-                    <p>
-                        <strong>Уважаемые друзья!</strong>
-                        <strong>
-                            Приглашаем вас 22 - 23 апреля на семинар по айкидо и иайдо Тохо в г. Касабланка, Марокко под руководством
-                            <br>
-                            Занятия проводят Paul Muller-Shihan и Олег Глушко.
-                        </strong>
-                    </p>
-                    <p class="p">
-                        Помимо участия в семинаре вы сможете увидеть волшебную странуне иначе, чем её видят туристы.
-                        Приглашающая сторона славится гостеприимством. Вам посоветуют, где лучше разместиться и, если у вас будет желание, расскажут, как правильно путешествовать в этом королевстве.
-                    </p>
-                    <p class="p">
-                        При своевременной подаче заявки на участие для вас будет организовано официальное приглашение.
-                    </p>
-                    <p class="p">
-                        О своём участии в семинаре просьба сообщить заранее.<br>
-                        Вы можете зарегистрировать заявку <a href="#">на сайте</a><br>
-                        или написав на <a href="#">detmir-aiki@mail.ru</a>,<br>
-                        или позвонив по т. <a href="#">+7 (917) 530-59-16</a>
-                </div>
-            </div>
-        </div>
+				<h1 class="h1 header_title">
+					Семинар в Марокко, апрель 2018
+				</h1>
+			</div>
+		</div>
 
         <?php include('../footer.php') ?>
 
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-        </script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-        </script>
-    </body>
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		        crossorigin="anonymous">
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		        crossorigin="anonymous">
+		</script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		        crossorigin="anonymous">
+		</script>
+	</body>
 </html>

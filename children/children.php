@@ -125,46 +125,27 @@
             </div>
         </div>
 
-        <div class="container_fluid section">
-            <form class="enroll_form" method="post" action="form.php">
-                <h2>Запись в детскую группу</h2>
-                <h3 class="h3">О ребёнке</h3>
-
-                <div class="form-group">
-                    <label for="example-text-input" class="col-form-label">Фамилия Имя Отчество</label>
-                    <input class="form-control" type="text" name="child_name" value="<?php echo $child_name;?>" id="example-text-input">
-                </div>
-
-                <div class="form-group">
-                    <label for="example-date-input" class="col-form-label">Дата рождения</label>
-                    <input class="form-control text-muted" type="date" name="date" value="<?php echo $date;?>" placeholder="2011-08-19" id="example-date-input">
-                </div>
-
-                <h3 class="h3">О родителях</h3>
-                <div class="form-group">
-                    <label for="example-text-input" class="col-form-label">Фамилия Имя Отчество</label>
-                    <input class="form-control" type="text" name="parent_name" value="<?php echo $parent_name;?>" id="example-text-input">
-                </div>
-
-                <div class="form-group">
-                    <label for="example-tel-input" class="col-form-label">Контактный телефон</label>
-                    <input class="form-control" type="tel" name="tel" placeholder="+7(000)-00-00" id="example-tel-input">
-                </div>
-
-                <div class="form-group">
-                    <label for="exampleInputEmail1" class="col-form-label">Контактная почта</label>
-                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-                </div>
-
-                <div class="form-group">
-                    <label for="exampleTextarea" class="col-form-label">Ваше сообщение</label>
-                    <textarea class="form-control" name="message" id="exampleTextarea" rows="3"><?php echo $comment;?></textarea>
-                </div>
-
-                <button type="submit" name="submit" value="Submit" class="btn btn-primary">Записаться в группу</button>
-            </form>
-
-        </div>
+	    <div class="container">
+		    <form class="cbp-mc-form">
+			    <div class="row">
+				    <div class="col-md-6">
+					    <label for="first_name text-left">ФИО ребенка</label>
+					    <input type="text" id="first_name" name="first_name" placeholder="Jonathan" class="hide">
+					    <label for="birthday">Дата рождения ребенка</label>
+					    <input class="text-muted" type="date" id="birthday" name="birthday" placeholder="2011-08-19" class="hide">
+					    <label for="first_name">ФИО одного из родителей</label>
+					    <input type="text" id="first_name" name="first_name" placeholder="Jonathan" class="hide">
+					    <label for="phone">Контактный телефон</label>
+					    <input type="text" id="phone" name="phone" placeholder="+7 905 999 9999" class="hide">
+					    <label for="email">Электронная почта</label>
+					    <input type="text" id="email" name="email" placeholder="ivanivan@gmail.com" class="hide">
+					    <label for="msg">Сообщение</label>
+					    <textarea id="msg" name="msg"></textarea>
+					    <div class="cbp-mc-submit-wrap"><input class="cbp-mc-submit" type="submit" value="Send your data" /></div>
+				    </div>
+			    </div>
+		    </form>
+	    </div>
 
         <?php include('../footer.php') ?>
 

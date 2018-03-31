@@ -33,7 +33,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+	            <div class="col-md-9">
                     <h2 class="h2" style="margin-bottom:0">Зачем нужны семинары по айкидо</h2>
                     <h3 class="h3">Нужно ли участвовать в семинарах?</h3>
                     
@@ -71,16 +71,16 @@
 
                     <hr class="hr" >
 
-                    <h2 class="h2" style="margin-bottom:0">Семинары 2018</h2>
-                    <a href="">Межклубный семинар 17 марта 2018</a>
-                    <br>
-                    <a href="">Семинар в Марокко, апрель 2018</a>
-                    <br>
-                    <a href="#" id="archive">Международный семинар на Лазурном Берегу в июне 2018 г</a>
-
-                    <hr class="hr">
-
-                    <h2 class="h2">Архив семинаров</h2>
+		            <h2 class="h2" style="margin-bottom:0">Семинары</h2>
+		            <p class="p">
+			            <a href="inter-club-mar2018.php">Межклубный семинар 17 марта 2018</a>
+		            </p>
+		            <p class="p">
+			            <a href="marocco-apr2018.php">Семинар в Марокко, апрель 2018</a>
+		            </p>
+		            <p class="p">
+			            <a href="">Международный семинар на Лазурном Берегу в июне 2018 г</a>
+		            </p>
                     <p class="p"> 
                         <a href="">Семинар Поля Мюллера-сэнсэя, ноябрь 2017</a>
                     </p>

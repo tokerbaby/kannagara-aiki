@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c43803af-f777-4cd7-84c7-f9be3c096b9d" name="Default" comment="">
+    <list default="true" id="c43803af-f777-4cd7-84c7-f9be3c096b9d" name="Default" comment="Testing new remote2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/barrish.php" beforeDir="false" afterPath="$PROJECT_DIR$/about/barrish.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/kevinchoate.php" beforeDir="false" afterPath="$PROJECT_DIR$/about/kevinchoate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/nishio.php" beforeDir="false" afterPath="$PROJECT_DIR$/about/nishio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/paulmuller.php" beforeDir="false" afterPath="$PROJECT_DIR$/about/paulmuller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/takaoarisue.php" beforeDir="false" afterPath="$PROJECT_DIR$/about/takaoarisue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/children/children.php" beforeDir="false" afterPath="$PROJECT_DIR$/children/children.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/css/children.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/children.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminars/inter-club-mar2018.php" beforeDir="false" afterPath="$PROJECT_DIR$/seminars/inter-club-mar2018.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminars/marocco-apr2018.php" beforeDir="false" afterPath="$PROJECT_DIR$/seminars/marocco-apr2018.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminars/seminars.php" beforeDir="false" afterPath="$PROJECT_DIR$/seminars/seminars.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,38 +27,38 @@
   <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="template.php" pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="general.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/css/general.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="598">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paulmuller.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about/paulmuller.php">
+      <file leaf-file-name="children.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/children/children.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+            <state relative-caret-position="390">
+              <caret line="133" column="67" selection-start-line="133" selection-start-column="67" selection-end-line="133" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paulmuller.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/css/paulmuller.css">
+      <file leaf-file-name="children.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/css/children.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about/about.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="96" column="53" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
+            <state relative-caret-position="400">
+              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -60,13 +69,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>h2</find>
+      <find>последняя</find>
+      <find>textarea</find>
       <find>a</find>
     </findStrings>
+    <replaceStrings>
+      <replace>h3</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,14 +96,25 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/res/css/footer.css" />
-        <option value="$PROJECT_DIR$/res/css/general.css" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/res/css/header.css" />
-        <option value="$PROJECT_DIR$/template.php" />
-        <option value="$PROJECT_DIR$/about/about.php" />
         <option value="$PROJECT_DIR$/about/paulmuller.css" />
         <option value="$PROJECT_DIR$/res/css/paulmuller.css" />
+        <option value="$PROJECT_DIR$/about/barrish.fxml" />
+        <option value="$PROJECT_DIR$/about/barrish.php" />
+        <option value="$PROJECT_DIR$/about/kevinchoate.php" />
+        <option value="$PROJECT_DIR$/about/takaoarisue.php" />
+        <option value="$PROJECT_DIR$/about/about.php" />
         <option value="$PROJECT_DIR$/about/paulmuller.php" />
+        <option value="$PROJECT_DIR$/about/nishio.php" />
+        <option value="$PROJECT_DIR$/seminars/current_year/inter-club-mar2018" />
+        <option value="$PROJECT_DIR$/template.php" />
+        <option value="$PROJECT_DIR$/seminars/seminars.php" />
+        <option value="$PROJECT_DIR$/seminars/inter-club-mar2018.php" />
+        <option value="$PROJECT_DIR$/seminars/marocco-apr2018.php" />
+        <option value="$PROJECT_DIR$/res/css/children.css" />
+        <option value="$PROJECT_DIR$/res/css/general.css" />
+        <option value="$PROJECT_DIR$/children/children.php" />
       </list>
     </option>
   </component>
@@ -103,11 +130,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="44" />
-    <option name="width" value="1400" />
-    <option name="height" value="956" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-5" />
+    <option name="y" value="24" />
+    <option name="width" value="1084" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -127,7 +154,7 @@
             <path>
               <item name="aiki" type="b2602c69:ProjectViewProjectNode" />
               <item name="aiki" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
+              <item name="children" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aiki" type="b2602c69:ProjectViewProjectNode" />
@@ -139,12 +166,6 @@
               <item name="aiki" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aiki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aiki" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,10 +182,11 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/seminars" />
       <recent name="$PROJECT_DIR$/res/css" />
       <recent name="$PROJECT_DIR$/about" />
     </key>
@@ -239,7 +261,7 @@
       <workItem from="1522316430551" duration="1141000" />
       <workItem from="1522317591099" duration="604000" />
       <workItem from="1522318214104" duration="1836000" />
-      <workItem from="1522320074051" duration="15448000" />
+      <workItem from="1522320074051" duration="34478000" />
     </task>
     <task id="LOCAL-00001" summary="Start using Font Awesome&#10;&#10;Included Font Awesome script and added icons to header and footer">
       <created>1522409728017</created>
@@ -248,11 +270,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522409728017</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Paul Muller Sensei personal page&#10;&#10;Filled page with content">
+      <created>1522418273741</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522418273741</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19259000" />
+    <option name="totallyTimeSpent" value="38289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="24" width="1930" height="1001" extended-state="6" />
@@ -264,15 +293,15 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.24884793" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.24884793" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15172054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14818764" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -291,12 +320,46 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="Start using Font Awesome&#10;&#10;Included Font Awesome script and added icons to header and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start using Font Awesome&#10;&#10;Included Font Awesome script and added icons to header and footer" />
+    <MESSAGE value="Add Paul Muller Sensei personal page&#10;&#10;Filled page with content" />
+    <MESSAGE value="Add Kevin Choate Sensei personal page" />
+    <MESSAGE value="Added other mentors' personal webpages and two seminars&#10;&#10;- Barrish sensei, Kevin Choate sensei, Takao Arisue and Nishio sensei&#10;- Inter-club seminar and Marocco seminar, both 2018" />
+    <MESSAGE value="Commit to test Intellij Idea Git integration" />
+    <MESSAGE value="Testing new remote" />
+    <MESSAGE value="Testing new remote2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing new remote2" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/classes/fees.php">
@@ -376,38 +439,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/css/general.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="33" column="12" selection-start-line="32" selection-start-column="31" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="96" column="53" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/css/paulmuller.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="52">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/barrish.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/nishio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about/paulmuller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+        <state relative-caret-position="610">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/takaoarisue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/kevinchoate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2949">
+          <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#13;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/barrish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1742">
+          <caret line="91" column="91" selection-start-line="91" selection-start-column="91" selection-end-line="91" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="158" column="72" lean-forward="true" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seminars/inter-club-mar2018">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seminars/marocco-apr2018.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seminars/inter-club-mar2018.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="62" column="77" selection-start-line="60" selection-start-column="24" selection-end-line="62" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seminars/seminars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/css/children.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/css/general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/children/children.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="133" column="67" selection-start-line="133" selection-start-column="67" selection-end-line="133" selection-end-column="67" />
         </state>
       </provider>
     </entry>
