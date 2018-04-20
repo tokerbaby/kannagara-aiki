@@ -14,9 +14,16 @@
     }
 
     $id = null;
-    $name = $_POST["name"];
+    $child_name = $_POST["child_name"];
+    $parent_name = $_POST["parent_name"];
+    $birthday = $_POST["birthday"];
+    $phone = $_POST["phone"];
+    $email = $_POST["email"];
+    $message = $_POST["message"];
 
-    $sql = "INSERT INTO children (id, child_name, parent_name, child_date_of_birth, contact_number, email, message) VALUES ('" . $id . "', '" . $name . "' , '0', '0', '0', '0', '0')";
+    $sql = "INSERT INTO children (id, child_name, parent_name, child_date_of_birth, contact_number, email, message) 
+            VALUES ('" . $id . "', '" . $child_name . "' , '" . $parent_name . "', '" . $birthday . "', '" . $phone . "', '" . $email . "', '" . $message . "')";
+
     $conn->query($sql);
 
     /*if ($conn->query($sql) === TRUE) {

@@ -23,7 +23,7 @@
         <div class="container-fluid header_container">
                 
             <div class="container">
-                <?php include('../header.php') ?>
+                <?php include('../Header.php') ?>
 
                 <div class="header_title">
                     <h1 class="h1">
@@ -84,9 +84,11 @@
                                 <li>
                                     <a href="#">
                                       <span class="event-time">20:00 - 22:00</span>
-                                      <span class="event-name">Среда, занятия с оружием</span>
+                                      <span class="event-name">Среда</span>
                                       <br />
-                                      <span class="event-location">Шаболовская</span>
+	                                    <span class="event-location">Шаболовская</span>
+	                                    <br />
+	                                    <span class="event-location"><i>Занятия с оружием</i></span>
                                     </a>
                                 </li>
                                   
@@ -101,11 +103,11 @@
                                   
                                 <li>
                                     <a href="#">
-                                      <span class="event-time">2:00pm - </span>
+                                      <span class="event-time">Скользящий график</span>
                                       <span class="event-name">Суббота</span>
                                       <br />
                                       <span class="event-location">
-                                        Скользящий график, уточняйте письмом detmir-aiki@mail.ru
+                                        Желающих заниматься просим подавать заявки на detmir-aiki@mail.ru
                                       </span>
                                     </a>
                                 </li>  
@@ -168,7 +170,7 @@
             </div>
         </div>
         
-        <?php include('../footer.php') ?>
+        <?php include('../Footer.php') ?>
 
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

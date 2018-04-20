@@ -22,7 +22,7 @@
         <div class="container-fluid header_container">
                 
             <div class="container">
-                <?php include('../header.php') ?>
+                <?php include('../Header.php') ?>
 
                 <div class="header_title">
                     <h1 class="h1">Правила</h1>
@@ -90,7 +90,7 @@
             </div>
         </div>
         
-        <?php include('../footer.php') ?>
+        <?php include('../Footer.php') ?>
 
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

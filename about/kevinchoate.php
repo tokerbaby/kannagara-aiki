@@ -24,7 +24,7 @@
 		<div class="container-fluid header_container">
 
 			<div class="container">
-                <?php include('../header.php') ?>
+                <?php include('../Header.php') ?>
 
 				<h1 class="h1 header_title">
 					Кевин Шоэт-сэнсей (Kevin Choate)
@@ -202,7 +202,7 @@
 			</div>
 		</div>
 
-        <?php include('../footer.php') ?>
+        <?php include('../Footer.php') ?>
 
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->

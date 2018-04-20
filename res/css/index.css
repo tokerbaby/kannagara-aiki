@@ -29,3 +29,24 @@
     padding-right: 20px;
     padding-bottom: 15px;
 }
+
+.news_image {
+    height: 150px;
+    width: 320px;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.news_1 {
+    background-image: url("../../res/images/main/book.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news_2 {
+    background-image: url("../../res/images/main/japan.jpg");
+}
+
+.news_3 {
+    background-image: url("../../res/images/main/japan.jpg");
+}

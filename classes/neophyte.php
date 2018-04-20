@@ -22,7 +22,7 @@
         <div class="container-fluid header_container">
                 
             <div class="container">
-                <?php include('../header.php') ?>
+                <?php include('../Header.php') ?>
 
                 <h1 class="h1 header_title">
                     Новичку
@@ -49,7 +49,7 @@
             <p class="p">В разделе <a href="#">&laquo;Стоимость и оплата&raquo;</a> вы можете узнать стоимость занятий.</p>
         </div>
         
-        <?php include('../footer.php') ?>
+        <?php include('../Footer.php') ?>
 
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

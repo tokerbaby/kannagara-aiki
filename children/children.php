@@ -12,9 +12,10 @@
 
         <link rel="stylesheet" type="text/css" href="../res/css/header.css">
         <link rel="stylesheet" type="text/css" href="../res/css/footer.css">
-        <link rel="stylesheet" type="text/css" href="../res/css/children.css">
+        <link rel="stylesheet" type="text/css" href="../res/css/Form.css">
         <link rel="stylesheet" type="text/css" href="../res/css/general.css">
 
+	    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     </head>
@@ -23,7 +24,7 @@
         <div class="container-fluid header_container">
             
             <div class="container">
-                <?php include('../header.php') ?>
+                <?php include('../Header.php') ?>
 
                 <div class="container">
                     <h1 class="header_title">
@@ -126,33 +127,38 @@
         </div>
 
 	    <div class="container">
-		    <form class="cbp-mc-form">
-			    <div class="row">
-				    <div class="col-md-6">
-					    <label for="first_name text-left">ФИО ребенка</label>
-					    <input type="text" id="first_name" name="first_name" placeholder="Jonathan" class="hide">
+		    <div class="row">
+			    <div class="col-md-6">
+				    <div id="form-messages"></div>
+				    <form method="post" id="kids_ajax_form" class="cbp-mc-form" action="AddChildAndSendMail.php">
+					    <label for="child_name text-left">ФИО ребенка</label>
+					    <input type="text" id="child_name" name="child_name" placeholder="Jonathan">
 					    <label for="birthday">Дата рождения ребенка</label>
-					    <input class="text-muted" type="date" id="birthday" name="birthday" placeholder="2011-08-19" class="hide">
-					    <label for="first_name">ФИО одного из родителей</label>
-					    <input type="text" id="first_name" name="first_name" placeholder="Jonathan" class="hide">
+					    <input class="text-muted" type="date" id="birthday" name="birthday" placeholder="2011-08-19">
+					    <label for="parent_name">ФИО одного из родителей</label>
+					    <input type="text" id="parent_name" name="parent_name" placeholder="Olivia">
 					    <label for="phone">Контактный телефон</label>
-					    <input type="text" id="phone" name="phone" placeholder="+7 905 999 9999" class="hide">
+					    <input type="text" id="phone" name="phone" placeholder="+7 905 999 9999">
 					    <label for="email">Электронная почта</label>
-					    <input type="text" id="email" name="email" placeholder="ivanivan@gmail.com" class="hide">
-					    <label for="msg">Сообщение</label>
-					    <textarea id="msg" name="msg"></textarea>
-					    <div class="cbp-mc-submit-wrap"><input class="cbp-mc-submit" type="submit" value="Send your data" /></div>
-				    </div>
+					    <input type="text" id="email" name="email" placeholder="ivanivan@gmail.com">
+					    <label for="message">Сообщение</label>
+					    <textarea id="message" name="message"></textarea>
+
+					    <div class="cbp-mc-submit-wrap">
+						    <input class="cbp-mc-submit" type="submit" onsubmit="SendAjax('#kids_ajax_form')" value="Send your data" />
+					    </div>
+			        </form>
 			    </div>
-		    </form>
+		    </div>
 	    </div>
 
-        <?php include('../footer.php') ?>
-
+        <?php include('../Footer.php') ?>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<!-- Ajax -->
+	    <script src="../res/js/AjaxSendForm.js"></script>
     </body>
 </html>
