@@ -1,20 +1,14 @@
 .footer_container {
-    background: #faaca8;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin-top: 0px;
-    color: white;
+    background: white; 
+    margin-top: 30px;
+}
+
+.footer {
+	font-size: 14px;
+	padding-top: 90px !important;
+	padding-bottom: 80px !important;
 }
 
 .footer div {
-	font-size: 14px;
-}
-
-.footer a {
-    color: white !important;
-}
-
-.footer a:hover {
-    text-decoration: none;
-    color: white !important;
+	padding-bottom: 15px;
 }

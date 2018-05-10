@@ -14,6 +14,7 @@
         <link rel="stylesheet" type="text/css" href="../res/css/footer.css">
         <link rel="stylesheet" type="text/css" href="../res/css/Form.css">
         <link rel="stylesheet" type="text/css" href="../res/css/general.css">
+	    <link rel="stylesheet" type="text/css" href="../res/css/children.css">
 
 	    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
         <!-- Bootstrap CSS -->
@@ -145,7 +146,7 @@
 					    <textarea id="message" name="message"></textarea>
 
 					    <div class="cbp-mc-submit-wrap">
-						    <input class="cbp-mc-submit" type="submit" onsubmit="SendAjax('#kids_ajax_form')" value="Send your data" />
+						    <input id="save" class="cbp-mc-submit" type="submit" onsubmit="SendAjax('#kids_ajax_form')" value="Send your data" />
 					    </div>
 			        </form>
 			    </div>
@@ -160,5 +161,6 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<!-- Ajax -->
 	    <script src="../res/js/AjaxSendForm.js"></script>
+	    <script src="../res/js/ChangeSubmitButtonText.js"></script>
     </body>
 </html>

@@ -8,14 +8,12 @@
 						<a href="../index.php"><img src="../res/images/main/logo.gif" class="pt-2 pb-2" alt="Логотип Каннагара Додзё"></a>
 					</div>
 					<div class="col-sm-2 text-right	">
-						<!-- <button class="d-inline-block btn btn-primary" onclick="document.getElementById('id1').style.display='block'">
+						<button id="login" class="d-inline-block btn btn-primary" onclick="document.getElementById('id1').style.display='block'">
 							<i class="fas fa-user fa-fw"></i>
-							Вход
 						</button>
-						<button class="btn btn-primary">
+						<button id="language" class="d-inline-block btn btn-primary">
 							<i class="fas fa-globe fa-fw"></i>
-							En
-						</button> -->
+						</button>
 					</div>
 				</div>
 			</div>
@@ -122,7 +120,6 @@
 						  	<div class="dropdown-content">
 							    <a href="../seminars/seminars.php">О семинарах</a>
 							    <a href="../seminars/seminars.php#next_seminars">Семинары 2018</a>
-							    <a href="#archive">Архив</a>
 							    <a href="#gallery">Фотографии</a>
 						  	</div>
 						</div>

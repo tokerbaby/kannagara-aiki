@@ -1,8 +1,27 @@
+/*
+@media (min-width: 768px) {
+.my_custom_container{
+    width: 600px;
+}}
+
+@media (min-width: 992px) {
+.my_custom_container{
+    width: 720px;
+}}
+
+@media (min-width: 1200px) {
+.my_custom_container{
+    width: 1440px;
+}}
+*/
+
 body {
 	font-family: "Open Sans", serif !important;
-   	color: #5c5c5c !important;
+   	color: #373737 !important;
    	line-height: 1.7 !important;
-    font-size: 14px !important;
+    font-size: 16px !important;
+    font-weight: normal;
+    background-color: #f1f1f1 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .p {
-	margin-top: 12px;
+	margin: 0 0 10px;
 }
 
 small {
@@ -55,8 +74,8 @@ small {
 }
 
 .section {
-	background-color: #f7f5f7;
-	margin-top: 90px;
+	background-color: white;
+	margin-top: 70px;
 	padding-bottom: 60px;
 }
 
@@ -70,27 +89,35 @@ li {
 }
 
 a {
-	color: #880e4f !important;
+	color: #328cc1 !important;
     font-weight: 600;
 }
-
-.btn-primary {
-    background-color: #880e4f !important;
-    color: #fff !important;
+ 
+a:hover {
+    text-decoration: none !important; 
+    opacity: 0.6 !important;
 }
 
-.btn {
-    border-radius: 1px;
+
+.my_section_button {
+    border-radius: 10px !important;
     font-size: 14px !important;
-    font-weight: 600 !important;
     text-transform: uppercase !important;
-    padding: 20px 25px !important;
-    border-width: 0 !important;
+    padding: 15px 20px !important;
+    margin-top: 60px;
+    color: #328cc1 !important;
+    position: relative;
+    left: 775px;
 }
 
-.btn:hover {
-    opacity: 0.8;
+.my_section_button:hover {
+    color: white !important;
     cursor: pointer;
+}
+
+.my_section_button:active {
+    background-color: #2d7dad;
+    border-color: #286f98;
 }
 
 .breadcrumb a:hover {
@@ -131,7 +158,7 @@ ul.breadcrumb li a:hover {
 
 #accordion {
     margin-top: 30px;
-    background-color: #eee;
+    background-color: transparent;
     color: #444;
     cursor: pointer;
     width: 100%;
@@ -141,20 +168,20 @@ ul.breadcrumb li a:hover {
     border-bottom: 1px solid black;
 }
 #accordion .card {
-    background-color: #eee;
+    background-color: transparent;
     border: none;
 }
 
 #accordion .card-header {
-    background-color: #eee;
+    background-color: transparent;
     border-bottom-width: 1px;
     padding: 0;
     margin: 0;
 }
 
 #accordion .btn-link {
-    color: black;
-    font-family: "Open Sans", serif; 
+    color: #328cc1;
+    font-family: inherit; 
     font-weight: lighter;
 } 
 
@@ -162,7 +189,7 @@ ul.breadcrumb li a:hover {
     display: block;
     width: 100%;
     border: none;
-    background-color: white;
+    background-color: transparent;
     padding: 14px 10px;
     font-size: 16px;
     cursor: pointer;
@@ -181,7 +208,7 @@ ul.breadcrumb li a:hover {
 
 #accordion .card-body {
     padding: 6px 18px;
-    background-color: white;
+    background-color: transparent;
     overflow: hidden;
     font-size: 15px;
 }

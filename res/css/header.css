@@ -18,7 +18,7 @@
     position: absolute;
     background-color: white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
@@ -27,10 +27,10 @@
     padding: 12px 16px;
     display: block;
     font-size: 12px;
+    font-family: inherit;
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
     text-decoration: none;
 }
 
@@ -44,20 +44,15 @@
 
 .menu_dropdown, .menu_link {
 	color: #5c5c5c !important;
-	font-family: 'PT Sans', sans-serif;
+	font-family: inherit !important;
     text-transform: uppercase;
-    font-size: 16px;
-    font-weight: bolder;
-}
-
-.menu_link:hover, .dropbtn:hover {
-    color: #191970 !important;
+    font-size: 14px;
 }
 
 .dropbtn {
     text-transform: uppercase;
-    font-size: 16px;
-    font-weight: bolder;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 button.dropbtn.menu_dropdown:focus {
@@ -67,7 +62,6 @@ button.dropbtn.menu_dropdown:focus {
 .navbar {
     padding: 0px !important;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav-item:not(:first-child) {
@@ -88,16 +82,9 @@ button.dropbtn.menu_dropdown:focus {
 .header_container {
     height: 300px;
     background-size: contain;
-    background-color: #f7f5f7;
-    background-image: url('../images/header/koi.jpg');
+    background-color: grey;
     background-position: 0px 0px;
     background-repeat: no-repeat;
-}
-
-@media screen and (max-width: 1650px) {
-    .header_container{
-        background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 100%), url('../images/header/koi.jpg');
-    }
 }
 
 .header_title {
@@ -107,20 +94,21 @@ button.dropbtn.menu_dropdown:focus {
     font-weight: 600 !important;
 }
 
-#login {
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    position: relative;
-    top: 10px;
+#login, #language {
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    padding: 5px;
+    margin-top: 20px;
 }
 
-#en_ru {
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    position: relative;
-    top: 10px;
+#login:hover, #language:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#language {
+    border: none;
 }
 
 /* Mobile menu */
