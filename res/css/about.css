@@ -14,7 +14,7 @@ img:hover {
 }
 
 .teacher_info {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .teacher_info .h3 {
@@ -22,23 +22,24 @@ img:hover {
 }
 
 .teacher_info .title {
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: -16px;
 }
 
 .mentor_info {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .mentor_info img {
     margin-bottom: -15px;
+    width: 250px;
+    height: auto;
 }
 
 /* Sidebar */
 
 .sidebar {
     padding-top: 40px;
-    position: fixed;
     z-index: 10;    
 }
 

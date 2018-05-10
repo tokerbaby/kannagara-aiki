@@ -69,30 +69,13 @@
 			        </li>
 
 			        <li class="nav-item">
-			        	<a class="nav-link menu_link active" href="../shinto/shinto.php">Беседы о Синто</a>
-			        </li>
-
-			        <li class="nav-item">
 			        	<div class="dropdown">
 					  		<button class="dropbtn menu_dropdown">О клубе
 					  		</button>
 					 		<div class="dropdown-content">
-				    			<a href="../about/about.php">Преподаватели</a>
+				    			<a href="../about/about.php#teachers">Преподаватели</a>
 				    			<a href="../about/about.php#mentors">Наставники и коллеги</a>
-				    			<a href="../about/about.php#exams">Экзамены</a>
-				    			<a href="../about/rules.php#rules">Правила</a>
-					  		</div>
-						</div>
-			        </li>
-
-			    	<li class="nav-item">
-			        	<div class="dropdown">
-					  		<button class="dropbtn menu_dropdown">Детский мир айкидо
-					  		</button>
-					 		<div class="dropdown-content">
-				    			<a href="../children/children.php">Айкидо для школьников</a>
-				    			<a href="../children/preschoolers.php">Айкидо для дошкольников</a>
-				    			<a href="../children/first.php">Первое занятие</a>
+				    			<a href="../about/about.php#rules">Правила</a>
 					  		</div>
 						</div>
 			        </li>
@@ -102,16 +85,17 @@
 					  		<button class="dropbtn menu_dropdown">О занятиях
 					  		</button>
 					 		<div class="dropdown-content">
-				    			<a href="../classes/schedule.php">Расписание</a>
-				    			<a href="../classes/fees.php">Стоимость</a>
 				    			<a href="../classes/neophyte.php">Новичку</a>
-				    			<a href="../classes/shop.php">Где купить</a>
+				    			<a href="../classes/children.php">Детям</a>
+				    			<a href="../classes/adults.php">Взрослым</a>
+				    			<a href="../classes/shop.php">Экипировка</a>
+				    			<a href="../about/about.php#exams">Экзамены</a>
 					  		</div>
 						</div>
 			        </li>
 
 			        <li class="nav-item">
-			        	<a class="nav-link menu_link" href="../contacts/contacts.php">Контакты</a>
+			        	<a class="nav-link menu_link active" href="../fees_schedule/fees_schedule.php">Цены и расписание</a>
 			        </li>
 
 			        <li class="nav-item">
@@ -125,8 +109,16 @@
 						</div>
 			      	</li>
 
+			        <li class="nav-item">
+			        	<a class="nav-link menu_link active" href="../shinto/shinto.php">Беседы о Синто</a>
+			        </li>
+
 			      	<li class="nav-item">
 			        	<a class="nav-link menu_link active" href="../video/video.php">Видео</a>
+			        </li>
+
+			        <li class="nav-item">
+			        	<a class="nav-link menu_link" href="../contacts/contacts.php">Контакты</a>
 			        </li>
 
 			    </ul>
