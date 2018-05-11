@@ -47,62 +47,6 @@
 					<div class="col-md-10">
 						<h2 class="h2">О нас</h2>
 						<p class="p">Наше додзё основано в 1989 г. С тех пор занятия идут, не прекращаясь. Мы видим айкидо не только как острое оружие, но и как возможность развития личности.</p>
-						
-
-			            <div id="accordion">
-			                <div class="card">
-			                    <div class="card-header" id="headingOne">
-			                        <h5 class="mb-0">
-			                            <button class="accordion block btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-			                                Чему может научить айкидо?
-			                            </button>
-			                        </h5>
-			                    </div>
-
-			                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-			                        <div class="card-body">
-			                            <p>Часто нашим детям не хватает физического контакта со сверстниками, порой просто недостаёт тактильных ощущений. Занятия айкидо хорошо восполняют эту нехватку.</p>
-			                            <p>Помимо навыков самозащиты айкидо может научить распознавать невербальный язык, которым люди пользуются, часто не отдавая себе отчёта. Почувствовать, как устроено личное пространство и пространство другого, (например, определить эти границы и не наступать на ноги соседа, не задевать его сумкой).</p>
-			                            <p>Айкидо может научить молодого человека многим прекрасным и важным вещам.</p>
-			                            <p>Но прежде всего айкидо должно научить бережному отношению к живому.</p>
-			                        </div>
-			                    </div>
-			                </div>
-			                <div class="card">
-			                    <div class="card-header" id="headingTwo">
-			                        <h5 class="mb-0">
-			                            <button class="accordion block btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-			                                Айкидо для родителей
-			                            </button>
-			                        </h5>
-			                    </div>
-			                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-			                        <div class="card-body">
-			                             Разумеется, на нашем татами мы будем рады видеть и родителей, но уже во «взрослой» группе.
-			                        </div>
-			                    </div>
-			                </div>
-			                <div class="card">
-			                    <div class="card-header" id="headingThree">
-			                        <h5 class="mb-0">
-			                            <button class="accordion block btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-			                                Что понадобится для занятий?
-			                            </button>
-			                        </h5>
-			                    </div>
-			                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-			                        <div class="card-body">
-			                            <p>Поскольку занятия айкидо могут потребовать повышенных нагрузок, мы настоятельно рекомендуем посоветоваться с доктором до того, как приступить к тренировкам.</p>
-			                            <p><b>Одежда и обувь</b></p>
-			                            <p>Для занятий понадобятся свободная спортивная одежда (штаны и верх с длинными (но не слишком -!) рукавами, сменная обувь для входа в зал, которая снимается перед входом на татами. На татами занимаются босиком, но можно одеть носки.</p>
-			                            <p>Если Вы убедились, что Ваш ребёнок будет заниматься, обязательно оденьте его в кимоно.</p>
-			                            <b>Экипировка</b>
-			                            <p>Ещё понадобятся <a href="#">тренировочное оружие</a> - деревянный меч – боккэн длиной около 100 ±5 см и лёгкая палка - дзё длиной около 125 см. То и другое можно <a href="#">приобрести</a>, но можно и сделать самим.</p>
-			                            <p>Вот, пожалуй, и всё, что нужно из «инвентаря».</p>
-			                        </div>
-			                    </div>
-			                </div>
-			            </div>
 			            
 			            <a href="#" class="btn btn-outline-primary my_section_button">Читать далее</a>
 					</div>

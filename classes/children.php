@@ -29,13 +29,13 @@
 
                 <div class="container">
                     <h1 class="header_title">
-                        Айкидо для школьников
+                        Айкидо для детей
                     </h1>
 
                     <ul class="breadcrumb">
                         <li><a href="index.php">Главная</a></li>
-                        <li><a href="#">Детский мир айкидо</a></li>
-                        <li>Айкидо для школьников</li>
+                        <li><a href="#">О занятиях</a></li>
+                        <li>Детям</li>
                     </ul>
                 </div>
             </div>
@@ -45,7 +45,7 @@
 
             <h2 class="h2">Приглашаем ребят в детскую школу айкидо при Московском Айкидо Каннагара Додзё</h2>
 
-            <img src="images/children/boy.jpg" id="boy">
+            <img src="../res/images/children/2.jpg" id="boy">
             <p class="p">Мы не отбираем «способных», не стремимся вырастить чемпионов или мускулистых победителей, не знающих сомнения в правоте силы. Хорошо освоенное боевое искусство - это острое оружие, и человек, владеющий им, должен, прежде всего, уметь владеть собой.</p>
             <p class="p">За четверть века преподавания айкидо мы накопили определённый опыт и хотим передать часть наших знаний молодому поколению. Мы хотим передать знания боевых искусств, знание серьезных навыков самообороны, вместе с уважением к живому и чувством ответственности за применение силы.</p>
             <p class="p">Занятия айкидо в наших группах помогут ребятам окрепнуть физически, улучшат координацию, помогут достойно выйти из схватки с обидчиками, а также позволят приобрести новых друзей!</p>
@@ -54,24 +54,20 @@
 
         <div class="container-fluid section">
             <div class="container">
-                <h2 class="h2">Как записаться на занятие?</h2>
-                <p class="p">Вы можете записаться в группу, просто придя на своё первое занятие. И всё же мы рекомендуем записаться заранее. 
-                    <br>Вы можете сделать это:
-                </p>
-                <ul>
-                    <li>по телефонам <a href="#">+7 (917) 530-59-16</a> или <a href="#">+7 (925) 589-03-20</a></li>
-                    <li>по электронной почте, написав на <a href="#">detmir-aiki@mail.ru</a></li>
-                    <li>на сайте, заполнив <a href="#">форму</a></li>
-                </ul>
-                <p class="p">Если у Вас есть особые пожелания или вы хотите что-либо рассказать о своём ребёнке, <a href="#">напишите нам об этом</a> или расскажите по телефону. Это поможет нам правильно построить занятия.</p>
-                <p class="p">В нашей школе работает  <a href="#">группа для дошкольного возраста (4 – 7) лет</a>.</p>
-                <p class="p"><strong style="color:red">Внимание! Перед посещением додзё убедитесь, что у ребенка нет медицинский противопоказаний!</strong></p>
-
-            </div>  
+                <h2 class="h2">Работает дошкольная группа для ребят 5 — 7 лет</h2>
+                <figure class="figure text-center">
+                    <img src="../res/images/preschoolers/kids.jpg" id="kids" class="figure-img img-fluid rounded" alt="На занятии детской группы">
+                    <figcaption class="figure-caption">На занятии детской группы</figcaption>
+                </figure>
+                <p class="p">Приглашаем мальчиков и девочек для занятий Айкидо Айкикай.</p>
+                <p class="p">Мы занимаемся в <a href="#">зале рядом с м. Шаболовская</a>.</p>
+                <p class="p">Занятия проходят в полу-игровой форме, ребята находят выход своим силам и постепенно знакомятся с миром айки. Хотя, по нашему мнению, обучать совсем молодого человека, которому нет ещё и семи, именно айкидо, как правило, ещё рановато, мы сами приводили своих детей в додзё почти с пелёнок. Физические данные не играют решающей роли. Главное - интерес к теме. Мы постараемся его развить.</p>
+                <p class="p"><strong>Вы можете просто прийти к нам в первый раз в любые понедельник или пятницу, но будет лучше, если Вы предупредите нас о своём первом появлении.</strong></p>
+            </div>
         </div>
 
         <div class="container">
-            <div id="accordion">
+            <div class="mt-5" id="accordion">
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
@@ -87,20 +83,6 @@
                             <p>Помимо навыков самозащиты айкидо может научить распознавать невербальный язык, которым люди пользуются, часто не отдавая себе отчёта. Почувствовать, как устроено личное пространство и пространство другого, (например, определить эти границы и не наступать на ноги соседа, не задевать его сумкой).</p>
                             <p>Айкидо может научить молодого человека многим прекрасным и важным вещам.</p>
                             <p>Но прежде всего айкидо должно научить бережному отношению к живому.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="accordion block btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Айкидо для родителей
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
-                             Разумеется, на нашем татами мы будем рады видеть и родителей, но уже во «взрослой» группе.
                         </div>
                     </div>
                 </div>
@@ -127,31 +109,49 @@
             </div>
         </div>
 
-	    <div class="container">
-		    <div class="row">
-			    <div class="col-md-6">
-				    <div id="form-messages"></div>
-				    <form method="post" id="kids_ajax_form" class="cbp-mc-form" action="AddChildAndSendMail.php">
-					    <label for="child_name text-left">ФИО ребенка</label>
-					    <input type="text" id="child_name" name="child_name" placeholder="Jonathan">
-					    <label for="birthday">Дата рождения ребенка</label>
-					    <input class="text-muted" type="date" id="birthday" name="birthday" placeholder="2011-08-19">
-					    <label for="parent_name">ФИО одного из родителей</label>
-					    <input type="text" id="parent_name" name="parent_name" placeholder="Olivia">
-					    <label for="phone">Контактный телефон</label>
-					    <input type="text" id="phone" name="phone" placeholder="+7 905 999 9999">
-					    <label for="email">Электронная почта</label>
-					    <input type="text" id="email" name="email" placeholder="ivanivan@gmail.com">
-					    <label for="message">Сообщение</label>
-					    <textarea id="message" name="message"></textarea>
+        <div class="container-fluid section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="h2">Как записаться на занятие?</h2>
+                        <p class="p">Вы можете записаться в группу, просто придя на своё первое занятие. И всё же мы рекомендуем записаться заранее. 
+                            <br>Вы можете сделать это:
+                        </p>
+                        <ul>
+                            <li>по телефонам <a href="#">+7 (917) 530-59-16</a> или <a href="#">+7 (925) 589-03-20</a></li>
+                            <li>по электронной почте, написав на <a href="#">detmir-aiki@mail.ru</a></li>
+                            <li>на сайте, заполнив форму</li>
+                        </ul>
+                        <p class="p">Если у Вас есть особые пожелания или вы хотите что-либо рассказать о своём ребёнке, <a href="#">напишите нам об этом</a> или расскажите по телефону. Это поможет нам правильно построить занятия.</p>
+                        <p class="p"><strong>Внимание! Перед посещением додзё убедитесь, что у ребенка нет медицинский противопоказаний!</strong></p>
 
-					    <div class="cbp-mc-submit-wrap">
-						    <input id="save" class="cbp-mc-submit" type="submit" onsubmit="SendAjax('#kids_ajax_form')" value="Send your data" />
-					    </div>
-			        </form>
-			    </div>
-		    </div>
-	    </div>
+                        <img src="../res/images/children/children.jpg">
+                    </div>
+
+                    <div class="col-md-6">
+                        <div id="form-messages"></div>
+                        <form method="post" id="kids_ajax_form" class="cbp-mc-form" action="AddChildAndSendMail.php">
+                            <label for="child_name text-left">ФИО ребенка</label>
+                            <input type="text" id="child_name" name="child_name" placeholder="">
+                            <label for="birthday">Дата рождения ребенка</label>
+                            <input class="text-muted" type="date" id="birthday" name="birthday" placeholder="2011-08-19">
+                            <label for="parent_name">ФИО одного из родителей</label>
+                            <input type="text" id="parent_name" name="parent_name" placeholder="">
+                            <label for="phone">Контактный телефон</label>
+                            <input type="text" id="phone" name="phone" placeholder="+7 905 999 9999">
+                            <label for="email">Электронная почта</label>
+                            <input type="text" id="email" name="email" placeholder="ivanivan@gmail.com">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message"></textarea>
+
+                            <div class="cbp-mc-submit-wrap">
+                                <input id="save" class="cbp-mc-submit" type="submit" onsubmit="SendAjax('#kids_ajax_form')" value="Записаться в группу">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <?php include('../Footer.php') ?>
 

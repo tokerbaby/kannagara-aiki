@@ -191,13 +191,12 @@ ul.breadcrumb li a:hover {
     border: none;
     background-color: transparent;
     padding: 14px 10px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     text-align: left;
 }
 
 #accordion button.active, #accordion button:hover {
-    background-color: white; 
     outline: none;
 }
 
@@ -210,7 +209,7 @@ ul.breadcrumb li a:hover {
     padding: 6px 18px;
     background-color: transparent;
     overflow: hidden;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .accordion:after {
