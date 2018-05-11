@@ -1,3 +1,13 @@
+#boy {
+    height: 450px;
+    width: auto;
+}
+
+.table_head {
+    background-color: #0b3c5d;
+    color: white !important;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -34,4 +44,8 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+ul li {
+    list-style-type: disc;
 }

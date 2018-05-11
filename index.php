@@ -27,42 +27,38 @@
 	<body>
 		
   		<div class="container-fluid main_header">
-
 			<?php include('Header.php') ?>
+		</div>
 
+		<div class="container-fluid quote">
 			<div class="container">
-				<div class="about">
-					<h1 class="h1">
-						Айкидо - боевое искусство в поисках мира
-						<br>
-						<small class="small">Айкидо для нас не бизнес. Для нас это Путь. Мы ищем единомышленников.</small>
-					</h1>
-				</div>
+				<h1 class="h1 pt-5">
+					Айкидо - боевое искусство в поисках мира
+					<br>
+					<small class="small">Айкидо для нас не бизнес. Для нас это Путь. Мы ищем единомышленников.</small>
+				</h1>
 			</div>
 		</div>
 	  	
-	  	<div class="container-fluid">
-			<div class="container mt-5">
+	  	<div class="container-fluid first_container">
+			<div class="container">
 				<div class="row">
 					<div class="col-md-10">
 						<h2 class="h2">О нас</h2>
 						<p class="p">Наше додзё основано в 1989 г. С тех пор занятия идут, не прекращаясь. Мы видим айкидо не только как острое оружие, но и как возможность развития личности.</p>
 			            
-			            <a href="#" class="btn btn-outline-primary my_section_button">Читать далее</a>
+			            <a href="#" class="btn btn-outline-primary my_section_button">Читать далее ></a>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="container-fluid section">
+		<div class="container-fluid section mt-0">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-9">
-						<h2 class="h2">Приглашаем ребят в детскую группу айкидо</h2>
-						<img src="res/images/main/kid.jpg" class="d-sm-none d-md-block" id="kid">
-						<p class="p">Айкидо прекрасно подходит для занятий в самом раннем возрасте. Правильно поставленное преподавание айкидо помогает раскрытию творческих возможностей личности ученика.</p>
-						<p class="p">Айкидо учит мощи, но не грубости. Для занятий не требуется особых физических данных. Занятия айкидо так же хороши для девочек, как и для мальчиков.</p>
-						<p class="p">Мы хотим увидеть человека умелого, сильного, чувствующего, думающего. Важно, чтобы у взрослеющего человека выросло чувство собственного достоинства вместе с уважением к другим. Вооружённый человек должен особенно бережно относиться к живому. Этому, по нашему убеждению и должно научить айкидо.</p>
+					<h2 class="h2">Приглашаем в детские и взрослые группы айкидо</h2>
+					<div class="col-md-6">
+						<img src="res/images/main/9.jpg" class="d-sm-none d-md-block pb-3" id="kids">
 						<strong>Московское Айкидо Каннагара Додзё – одна из старейших школ айкидо в России. Занятия ведут опытные <a href="#">преподаватели</a> (4 и 6 даны айкидо Айкикай).</strong>
 						<ul class="item_marker">
 							<li>
@@ -84,9 +80,20 @@
 								Для ребят и родителей устраиваются летние сборы в России за рубежом.
 							</li>
 						</ul>
-						<p class="p">Очень внимательно отнеситесь к выбору группы, в которую Вы собираетесь привести своего ребёнка!</p>
+						<a href="#" class="btn btn-outline-primary my_section_button mb-5">Записаться в группу ></a>
+					</div>
 
-						<a href="#" class="btn btn-outline-primary my_section_button">Записаться в группу</a>
+					<div class="col-md-6">
+						<img src="res/images/main/8.png" class="d-sm-none d-md-block pb-3" id="adults">
+						<strong>Приглашаем взрослых в начальные и продолжающие группы!</strong>
+						<p class="p">Мы не имитируем мастерство. Мы учимся встречать атаку.</p>
+						<p class="p">Занятия по айкидо проводят <a href="#">преподаватели</a> с многолетним стажем педагогической практики.</p>
+						<p class="p">Работа с оружием (боккэн, дзё, танто) - неотъемлемая часть наших тренировок. Особое внимание уделяется противодействию атаке ножом.</p>
+						<p class="p">Каждую неделю проходят тренировки иайдо (стиль Сёдзи Нишио-сэнсэя), поскольку Нишио будо - предмет нашего пристального изучения.</p>
+						<p class="p">Члены додзё имеют возможность регулярно участвовать в <a href="#">семинарах</a> ведущих мировых мастеров айкидо на нашем татами и за рубежом.</p>
+						<p class="p">По мере совершенствования навыков члены додзё проходят аттестацию и получают дипломы Айкидо Айкикай. И нам не стыдно ни за одного из наших черных поясов.</p>
+						<p class="p"><strong>Мы готовы (бесплатно) поделиться записями наших семинаров. Звоните, приходите.</strong></p>
+						<a href="#" class="btn btn-outline-primary my_section_button">Подробнее ></a>	
 					</div>
 				</div>
 			</div>		
@@ -94,20 +101,13 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-9">
-					<h2 class="h2">Приглашаем взрослых в начальные и продолжающие группы!</h2>
-					<strong>Мы не имитируем мастерство. Мы учимся встречать атаку.</strong>
-					<img src="res/images/main/kotegaeshi.jpg" id="kotegaeshi">
-					<p class="p">Вы можете посетить первое занятие по Айкидо в любом из <a href="#">наших залов</a>, не заботясь об оплате.</p>
-					<p class="p">Перед посещением первого занятия прочтите, пожалуйста, <a href="#">правила</a> и договоритесь о дне Вашей первой тренировки по тел. <a href="#">+7 (917) 530 59 16</a>.</p>
-					<p class="p">Занятия по айкидо проводят <a href="#">преподаватели</a> с многолетним стажем педагогической практики.</p>
-					<p class="p">Работа с оружием (боккэн, дзё, танто) - неотъемлемая часть наших тренировок. Особое внимание уделяется противодействию атаке ножом.</p>
-					<p class="p mt-5">Каждую неделю проходят тренировки иайдо (стиль Сёдзи Нишио-сэнсэя), поскольку Нишио будо - предмет нашего пристального изучения.</p>
-					<p class="p">Члены додзё имеют возможность регулярно участвовать в <a href="#">семинарах</a> ведущих мировых мастеров айкидо на нашем татами и за рубежом.</p>
-					<p class="p">По мере совершенствования навыков члены додзё проходят аттестацию и получают дипломы Айкидо Айкикай. И нам не стыдно ни за одного из наших черных поясов.</p>
-					<p class="p"><strong>Мы готовы (бесплатно) поделиться записями наших семинаров. Звоните, приходите.</strong></p>
+				<div class="col-md-6">
+					<form method="post" id="subscribe_ajax_form" class="cbp-mc-form" action="SubscribeAndSendMail.php">
+						<label for="email">Почта</label>
+						<input type="text" id="email" name="email" placeholder="">
 
-					<a href="#" class="btn btn-outline-primary my_section_button">Как нас найти</a>
+						<input class="cbp-mc-submit" type="submit" onsubmit="SendAjax('#subscribe_ajax_form')" value="Подписаться на рассылку" />
+					</form>
 				</div>
 			</div>
 		</div>
@@ -149,19 +149,6 @@
 						</h4>
 						<p class="p">Занятия в утренние часы оставляют особое тонкое чувство, след которого остаётся с Вами на весь день. <a href="#">Смотреть расписание...</a></p>
 					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<form method="post" id="subscribe_ajax_form" class="cbp-mc-form" action="SubscribeAndSendMail.php">
-						<label for="email">Почта</label>
-						<input type="text" id="email" name="email" placeholder="">
-
-						<input class="cbp-mc-submit" type="submit" onsubmit="SendAjax('#subscribe_ajax_form')" value="Подписаться на рассылку" />
-					</form>
 				</div>
 			</div>
 		</div>

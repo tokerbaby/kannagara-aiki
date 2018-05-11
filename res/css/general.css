@@ -98,28 +98,6 @@ a:hover {
     opacity: 0.6 !important;
 }
 
-
-.my_section_button {
-    border-radius: 10px !important;
-    font-size: 14px !important;
-    text-transform: uppercase !important;
-    padding: 15px 20px !important;
-    margin-top: 60px;
-    color: #328cc1 !important;
-    position: relative;
-    left: 775px;
-}
-
-.my_section_button:hover {
-    color: white !important;
-    cursor: pointer;
-}
-
-.my_section_button:active {
-    background-color: #2d7dad;
-    border-color: #286f98;
-}
-
 .breadcrumb a:hover {
 	color: #191970 !important;
 	text-decoration: none !important;
