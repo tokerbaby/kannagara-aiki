@@ -43,6 +43,10 @@
     border-color: #286f98;
 }
 
+#about_btn {
+    left: 700px;
+}
+
 .news_image {
     height: 150px;
     width: 320px;

@@ -97,6 +97,51 @@
             </div>
         </div>
 
+        <div class="container-fluid accordion_container">
+            <div class="container">
+                <div class="mt-5" id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="accordion block btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Чему может научить айкидо?
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Часто нашим детям не хватает физического контакта со сверстниками, порой просто недостаёт тактильных ощущений. Занятия айкидо хорошо восполняют эту нехватку.</p>
+                                <p>Помимо навыков самозащиты айкидо может научить распознавать невербальный язык, которым люди пользуются, часто не отдавая себе отчёта. Почувствовать, как устроено личное пространство и пространство другого, (например, определить эти границы и не наступать на ноги соседа, не задевать его сумкой).</p>
+                                <p>Айкидо может научить молодого человека многим прекрасным и важным вещам.</p>
+                                <p>Но прежде всего айкидо должно научить бережному отношению к живому.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="accordion block btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Что понадобится для занятий?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>Поскольку занятия айкидо могут потребовать повышенных нагрузок, мы настоятельно рекомендуем посоветоваться с доктором до того, как приступить к тренировкам.</p>
+                                <p><b>Одежда и обувь</b></p>
+                                <p>Для занятий понадобятся свободная спортивная одежда (штаны и верх с длинными (но не слишком -!) рукавами, сменная обувь для входа в зал, которая снимается перед входом на татами. На татами занимаются босиком, но можно одеть носки.</p>
+                                <p>Если Вы убедились, что Ваш ребёнок будет заниматься, обязательно оденьте его в кимоно.</p>
+                                <b>Экипировка</b>
+                                <p>Ещё понадобятся <a href="#">тренировочное оружие</a> - деревянный меч – боккэн длиной около 100 ±5 см и лёгкая палка - дзё длиной около 125 см. То и другое можно <a href="#">приобрести</a>, но можно и сделать самим.</p>
+                                <p>Вот, пожалуй, и всё, что нужно из «инвентаря».</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container-fluid">
             <div class="container">
                 <h2 class="h2">Расписание и цены</h2>
@@ -159,7 +204,7 @@
                     </div>
 
                     <div class="col-md-6">
-                        <h3 class="h3 mt-5 table_head">Школьники и дошкольники</h3>
+                        <h3 class="h3 mt-5 table_head">Школьники и дошкольники (вечерняя группа)</h3>
                         <table class="table">
                             <tr>
                                 <td>Два занятия в неделю</td>
@@ -220,7 +265,7 @@
 
                     <div class="col-md-6">
                         <div id="form-messages"></div>
-                        <form method="post" id="kids_ajax_form" class="cbp-mc-form" action="AddChildAndSendMail.php">
+                        <form method="post" id="kids_ajax_form" class="form" action="AddChildAndSendMail.php">
                             <label for="child_name text-left">ФИО ребенка</label>
                             <input type="text" id="child_name" name="child_name" placeholder="">
                             <label for="birthday">Дата рождения ребенка</label>
@@ -234,57 +279,14 @@
                             <label for="message">Сообщение</label>
                             <textarea id="message" name="message"></textarea>
 
-                            <div class="cbp-mc-submit-wrap">
-                                <input id="save" class="cbp-mc-submit" type="submit" onsubmit="SendAjax('#kids_ajax_form')" value="Записаться в группу">
+                            <div class="form_submit_wrap">
+                                <input id="save" class="form_submit" type="submit" onsubmit="SendAjax('#kids_ajax_form')" value="Записаться в группу">
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container">
-            <div class="mt-5" id="accordion">
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="accordion block btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Чему может научить айкидо?
-                            </button>
-                        </h5>
-                    </div>
-
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
-                            <p>Часто нашим детям не хватает физического контакта со сверстниками, порой просто недостаёт тактильных ощущений. Занятия айкидо хорошо восполняют эту нехватку.</p>
-                            <p>Помимо навыков самозащиты айкидо может научить распознавать невербальный язык, которым люди пользуются, часто не отдавая себе отчёта. Почувствовать, как устроено личное пространство и пространство другого, (например, определить эти границы и не наступать на ноги соседа, не задевать его сумкой).</p>
-                            <p>Айкидо может научить молодого человека многим прекрасным и важным вещам.</p>
-                            <p>Но прежде всего айкидо должно научить бережному отношению к живому.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="accordion block btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Что понадобится для занятий?
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-                            <p>Поскольку занятия айкидо могут потребовать повышенных нагрузок, мы настоятельно рекомендуем посоветоваться с доктором до того, как приступить к тренировкам.</p>
-                            <p><b>Одежда и обувь</b></p>
-                            <p>Для занятий понадобятся свободная спортивная одежда (штаны и верх с длинными (но не слишком -!) рукавами, сменная обувь для входа в зал, которая снимается перед входом на татами. На татами занимаются босиком, но можно одеть носки.</p>
-                            <p>Если Вы убедились, что Ваш ребёнок будет заниматься, обязательно оденьте его в кимоно.</p>
-                            <b>Экипировка</b>
-                            <p>Ещё понадобятся <a href="#">тренировочное оружие</a> - деревянный меч – боккэн длиной около 100 ±5 см и лёгкая палка - дзё длиной около 125 см. То и другое можно <a href="#">приобрести</a>, но можно и сделать самим.</p>
-                            <p>Вот, пожалуй, и всё, что нужно из «инвентаря».</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>   
 
         <?php include('../Footer.php') ?>
 

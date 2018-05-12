@@ -1,6 +1,6 @@
 /* FORM STYLES */
 
-form {
+.form {
     padding-left: 100px;
     margin-top: 30px;
 }
@@ -21,7 +21,7 @@ input[type=text], input[type=tel], input[type=date], select {
 
 /* NEW FORM */
 
-.cbp-mc-form label {
+.form label {
     display: block;
     padding: 25px 5px 5px 2px;
     font-size: 14px;
@@ -30,9 +30,9 @@ input[type=text], input[type=tel], input[type=date], select {
     cursor: pointer;
 }
 
-.cbp-mc-form input,
-.cbp-mc-form textarea,
-.cbp-mc-form select {
+.form input,
+.form textarea,
+.form select {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     line-height: 1.5;
     font-size: 16px;
@@ -43,34 +43,34 @@ input[type=text], input[type=tel], input[type=date], select {
     background: transparent;
 }
 
-.cbp-mc-form input,
-.cbp-mc-form textarea {
+.form input,
+.form textarea {
     border: 3px solid LightBlue;
 }
 
-.cbp-mc-form textarea {
-    min-height: 200px;
+.form textarea {
+    min-height: 150px;
 }
 
-.cbp-mc-form input:focus,
-.cbp-mc-form textarea:focus,
-.cbp-mc-form label:active + input,
-.cbp-mc-form label:active + textarea {
+.form input:focus,
+.form textarea:focus,
+.form label:active + input,
+.form label:active + textarea {
     outline: none;
     border: 3px solid #10689a;
 }
 
-.cbp-mc-form select:focus {
+.form select:focus {
     outline: none;
 }
 
-.cbp-mc-submit-wrap {
+.form_submit_wrap {
     text-align: center;
     padding-top: 40px;
     clear: both;
 }
 
-.cbp-mc-form input.cbp-mc-submit {
+.form input.form_submit {
     background: #10689a;
     border: none;
     color: #fff;
@@ -79,27 +79,11 @@ input[type=text], input[type=tel], input[type=date], select {
     text-transform: uppercase;
     display: inline-block;
     padding: 15px 30px;
-    font-size: 16px;
+    font-size: 15px;
     border-radius: 2px;
     letter-spacing: 1px;
 }
 
-.cbp-mc-form input.cbp-mc-submit:hover {
+.form input.form_submit:hover {
     background: #1478b1;
-}
-
-@media screen and (max-width: 70em) {
-    .cbp-mc-column {
-        width: 50%;
-    }
-    .cbp-mc-column:nth-child(3) {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 48em) {
-    .cbp-mc-column {
-        width: 100%;
-        padding: 10px;
-    }
 }

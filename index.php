@@ -47,7 +47,9 @@
 						<h2 class="h2">О нас</h2>
 						<p class="p">Наше додзё основано в 1989 г. С тех пор занятия идут, не прекращаясь. Мы видим айкидо не только как острое оружие, но и как возможность развития личности.</p>
 			            
-			            <a href="#" class="btn btn-outline-primary my_section_button">Читать далее ></a>
+			            <div class="text-right">
+			            	<a href="#" class="btn btn-outline-primary my_section_button">Читать далее ></a>
+			            </div>
 					</div>
 				</div>
 			</div>
@@ -56,7 +58,7 @@
 		<div class="container-fluid section mt-0">
 			<div class="container">
 				<div class="row">
-					<h2 class="h2">Приглашаем в детские и взрослые группы айкидо</h2>
+					<h2 class="h2 pl-2">Приглашаем в детские и взрослые группы айкидо</h2>
 					<div class="col-md-6">
 						<img src="res/images/main/9.jpg" class="d-sm-none d-md-block pb-3" id="kids">
 						<strong>Московское Айкидо Каннагара Додзё – одна из старейших школ айкидо в России. Занятия ведут опытные <a href="#">преподаватели</a> (4 и 6 даны айкидо Айкикай).</strong>
@@ -102,11 +104,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<form method="post" id="subscribe_ajax_form" class="cbp-mc-form" action="SubscribeAndSendMail.php">
+					<form method="post" id="subscribe_ajax_form" class="form pl-0" action="SubscribeAndSendMail.php">
 						<label for="email">Почта</label>
 						<input type="text" id="email" name="email" placeholder="">
 
-						<input class="cbp-mc-submit" type="submit" onsubmit="SendAjax('#subscribe_ajax_form')" value="Подписаться на рассылку" />
+						<input class="form_submit" type="submit" onsubmit="SendAjax('#subscribe_ajax_form')" value="Подписаться на рассылку">
 					</form>
 				</div>
 			</div>
