@@ -13,6 +13,8 @@
         <link rel="stylesheet" type="text/css" href="../res/css/header.css">
         <link rel="stylesheet" type="text/css" href="../res/css/footer.css">
         <link rel="stylesheet" type="text/css" href="../res/css/general.css">
+        <link rel="stylesheet" type="text/css" href="../res/css/children.css">
+        <link rel="stylesheet" type="text/css" href="../res/css/schedule.css">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -52,6 +54,138 @@
 		        </div>
 	        </div>
 		</div>
+
+        <div class="container-fluid section">
+            <div class="container">
+                <h2 class="h2">Расписание и цены</h2>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <ul class="main">
+                            <li class="date">
+                                <h3>Утренняя группа</h3>
+                            </li>
+                            <li class= "events">
+                                <ul class="events-detail">
+                                    <li>
+                                        <a href="#">
+                                          <span class="event-time">10:00 - 12:00</span>
+                                          <span class="event-name">Среда</span>
+                                          <br />
+                                          <span class="event-location">с/к "Олимпийский"</span>
+                                        </a>
+                                    </li>
+                                   
+                                    <li>
+                                        <a href="#">
+                                          <span class="event-time">10:00 - 12:00</span>
+                                          <span class="event-name">Пятница</span>
+                                          <br />
+                                          <span class="event-location">с/к "Олимпийский"</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                                     
+                            <li class="date">
+                                <h3>Вечерняя группа</h3>
+                            </li>
+                            <li class= "events cf">
+                                <ul class="events-detail">
+                                    <li>
+                                        <a href="#">
+                                          <span class="event-time">20:00 - 22:00</span>
+                                          <span class="event-name">Понедельник</span>
+                                          <br />
+                                          <span class="event-location">Шаболовская</span>
+                                        </a>
+                                    </li>
+                                       
+                                    <li>
+                                        <a href="#">
+                                          <span class="event-time">20:00 - 22:00</span>
+                                          <span class="event-name">Среда</span>
+                                          <br />
+                                            <span class="event-location">Шаболовская</span>
+                                            <br />
+                                            <span class="event-location"><i>Занятия с оружием</i></span>
+                                        </a>
+                                    </li>
+                                      
+                                    <li>
+                                        <a href="#">
+                                          <span class="event-time">20:00 - 22:00</span>
+                                          <span class="event-name">Пятница</span>
+                                          <br />
+                                          <span class="event-location">Шаболовская</span>
+                                        </a>
+                                    </li>
+                                      
+                                    <li>
+                                        <a href="#">
+                                          <span class="event-time">Скользящий график</span>
+                                          <span class="event-name">Суббота</span>
+                                          <br />
+                                          <span class="event-location">
+                                            Желающих заниматься просим подавать заявки на detmir-aiki@mail.ru
+                                          </span>
+                                        </a>
+                                    </li>  
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3 class="h3 table_head">Взрослые и подростки старше 14 лет (вечерняя группа)</h3>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Одно занятие в неделю</td>
+                                    <td>2 700 руб</td>
+                                </tr>
+                                <tr>
+                                    <td>Два занятия в неделю</td>
+                                    <td>4 300 руб</td>
+                                </tr>
+                                <tr>
+                                    <td>Три занятия в неделю</td>
+                                    <td>4 300 руб</td>
+                                </tr>
+                                <tr>
+                                    <td>Разовое посещение</td>
+                                    <td>800 руб</td>
+                                </tr>
+                                <tr>
+                                    <td>Первое занятие</td>
+                                    <td>бесплатно</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3 class="h3 table_head">Утренняя группа</h3>
+                        <table class="table">
+                            <tr>
+                                <td>Два занятия в неделю</td>
+                                <td>5 500 руб</td>
+                            </tr>
+                            <tr>
+                                <td>Одно занятие в неделю</td>
+                                <td>3 000 руб</td>
+                            </tr>
+                            <tr>
+                                <td>Разовое посещение</td>
+                                <td>900 руб</td>
+                            </tr>
+                            <tr>
+                                <td>Первое занятие</td>
+                                <td>бесплатно</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
         
         <?php include('../Footer.php') ?>
 

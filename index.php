@@ -26,29 +26,36 @@
 
 	<body>
 		
-  		<div class="container-fluid main_header">
+  		<div class="container-fluid main_header p-0">
 			<?php include('Header.php') ?>
+			<?php include('Slider.php') ?>
 		</div>
 
 		<div class="container-fluid quote">
 			<div class="container">
-				<h1 class="h1 pt-5">
-					Айкидо - боевое искусство в поисках мира
-					<br>
-					<small class="small">Айкидо для нас не бизнес. Для нас это Путь. Мы ищем единомышленников.</small>
-				</h1>
+				
 			</div>
+		</div>
+
+		<div class="container">
+                
 		</div>
 	  	
 	  	<div class="container-fluid first_container">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10">
-						<h2 class="h2">О нас</h2>
-						<p class="p">Наше додзё основано в 1989 г. С тех пор занятия идут, не прекращаясь. Мы видим айкидо не только как острое оружие, но и как возможность развития личности.</p>
-			            
+						<h1 class="h1 pb-2">
+							Айкидо - боевое искусство в поисках мира
+						</h1>
+						<p class="p">
+							Айкидо для нас не бизнес. Для нас это Путь. Мы ищем единомышленников.
+						</p>
+						<p class="p">
+							Наше додзё основано в 1989 г. С тех пор занятия идут, не прекращаясь. Мы видим айкидо не только как острое оружие, но и как возможность развития личности.
+						</p>
 			            <div class="text-right">
-			            	<a href="#" class="btn btn-outline-primary my_section_button">Читать далее ></a>
+			            	<a href="#" class="btn btn-outline-primary my_section_button">Далее о нас ></a>
 			            </div>
 					</div>
 				</div>

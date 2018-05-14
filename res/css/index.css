@@ -1,21 +1,22 @@
 .main_header {
-    background-image: url('../images/main/dojo.jpg');
-    height: 670px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 40px;
 }
 
 .quote {
-    background-color:rgba(0,0,0,0.6);
-    color: white;
     height: 200px;
     position: relative;
-    top: -430px;
+    top: 400px;
+}
+
+.carousel-item {
+    height: 700px;
 }
 
 .first_container {
-    top: -170px;
+    top: -40px;
 }
 
 #adults, #kids {
